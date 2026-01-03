@@ -1,0 +1,15 @@
+{
+  "method": "multiframe_gpt4o",
+  "inference_dir": "./data/outputs",
+  "eval_output_dir": "./data/evaluations/hybrid_sampling",
+  "temperature": 0.0,
+  "multiframe": {
+    "n_frames": 8,
+    "last_seconds": 3.0,
+    "strategy": "hybrid",
+    "voting": "weighted_majority",
+    "metric": "combined",
+    "temporal_weight": 0.35,
+    "confidence_threshold": 0.6
+  }
+}

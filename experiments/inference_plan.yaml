@@ -1,0 +1,49 @@
+# Inference Plan - Models × Datasets
+# Based on your inference table
+
+datasets:
+  object_trajectory_task:
+    questions_path: "s3://vm-dataset/v1/questions/object_trajectory_task/"
+    models:
+      - name: "morphic-frames-to-video"
+        output_path: "s3://vm-dataset/v1/inference_results/object_trajectory_task/morphic-frames-to-video/"
+        status: "completed"
+      - name: "hunyuan-video-i2v" 
+        output_path: "s3://vm-dataset/v1/inference_results/object_trajectory_task/hunyuan-video-i2v/"
+        status: "completed"
+      - name: "wan-2.2-i2v-a14b"
+        output_path: "s3://vm-dataset/v1/inference_results/object_trajectory_task/wan-2.2-i2v-a14b/"
+        status: "completed"
+      - name: "cogvideox1.5-5b-i2v"
+        output_path: "s3://vm-dataset/v1/inference_results/object_trajectory_task/cogvideox1.5-5b-i2v/"
+        status: "completed"
+      # Remaining models - not started
+      - name: "cogvideox-5b-i2v"
+        output_path: "s3://vm-dataset/v1/inference_results/object_trajectory_task/cogvideox-5b-i2v/"
+        status: "pending"
+      - name: "videocrafter2-512"
+        output_path: "s3://vm-dataset/v1/inference_results/object_trajectory_task/videocrafter2-512/"
+        status: "pending"
+      - name: "dynamicrafter-1024"
+        output_path: "s3://vm-dataset/v1/inference_results/object_trajectory_task/dynamicrafter-1024/"
+        status: "pending"
+      - name: "ltx-video-13b-distilled"
+        output_path: "s3://vm-dataset/v1/inference_results/object_trajectory_task/ltx-video-13b-distilled/"
+        status: "pending"
+
+  reorder_objects_task:
+    questions_path: "s3://vm-dataset/v1/questions/reorder_objects_task/"
+    models:
+      - name: "morphic-frames-to-video"
+        output_path: "s3://vm-dataset/v1/inference_results/reorder_objects_task/morphic-frames-to-video/"
+        status: "completed"
+      - name: "wan-2.2-i2v-a14b"
+        output_path: "s3://vm-dataset/v1/inference_results/reorder_objects_task/wan-2.2-i2v-a14b/"
+        status: "completed"
+      # Remaining models - not started
+      - name: "hunyuan-video-i2v"
+        output_path: "s3://vm-dataset/v1/inference_results/reorder_objects_task/hunyuan-video-i2v/"
+        status: "pending"
+      - name: "cogvideox1.5-5b-i2v"
+        output_path: "s3://vm-dataset/v1/inference_results/reorder_objects_task/cogvideox1.5-5b-i2v/"
+        status: "pending"

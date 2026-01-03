@@ -1,0 +1,15 @@
+{
+  "method": "multiframe_gpt4o",
+  "inference_dir": "./data/outputs",
+  "eval_output_dir": "./data/evaluations/keyframe_detection",
+  "temperature": 0.0,
+  "multiframe": {
+    "n_frames": 8,
+    "last_seconds": 3.0,
+    "strategy": "keyframe",
+    "voting": "weighted_majority",
+    "metric": "ssim",
+    "temporal_weight": 0.4,
+    "confidence_threshold": 0.6
+  }
+}
