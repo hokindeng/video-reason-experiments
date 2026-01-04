@@ -208,3 +208,5 @@ __marimo__/
 
 # Project specific
 data/questions/
+# Project specific
+data/outputs/
