@@ -24,13 +24,23 @@ cd video-reason-experiments
 git submodule update --init --recursive
 ```
 
-### 3. Install Dependencies
+### 3. Create Virtual Environment
+
+Create and activate a Python virtual environment:
+
+```bash
+python3 -m venv env
+source env/bin/activate  # On Linux/macOS
+# env\Scripts\activate  # On Windows
+```
+
+### 4. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Configure AWS Credentials
+### 5. Configure AWS Credentials
 
 Copy the environment template and fill in your AWS credentials:
 
@@ -47,7 +57,7 @@ AWS_DEFAULT_REGION=us-east-1
 AWS_S3_BUCKET=vm-dataset
 ```
 
-### 5. Download Question Data (Optional)
+### 6. Download Question Data (Optional)
 
 If your questions are stored in S3:
 
