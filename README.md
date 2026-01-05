@@ -20,8 +20,23 @@ cd video-reason-experiments
 
 ### 2. Initialize VMEvalKit Submodule
 
+**For first-time setup** (uses locked commit version):
+
 ```bash
 git submodule update --init --recursive
+```
+
+**To update to the latest dev branch** (optional):
+
+```bash
+git submodule update --remote --recursive
+```
+
+After updating to latest, commit the change:
+
+```bash
+git add VMEvalKit
+git commit -m "Update VMEvalKit submodule to latest dev"
 ```
 
 ### 3. Create Virtual Environment
