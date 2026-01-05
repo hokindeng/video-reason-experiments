@@ -14,6 +14,7 @@ OUTPUT_DIR="$PROJECT_ROOT/data/outputs"
 MODEL=""
 GPU=""
 SKIP_SETUP=false
+CUSTOM_QUESTIONS_DIR=""
 
 # Help function
 show_help() {
@@ -23,17 +24,19 @@ Usage: $0 --model MODEL [OPTIONS]
 Run VMEvalKit inference on all tasks
 
 Required arguments:
-    --model MODEL        Model to run
+    --model MODEL                Model to run
 
 Optional arguments:
-    --gpu GPU           GPU device ID to use
-    --skip-setup        Skip model setup
-    -h, --help          Show this help message
+    --gpu GPU                    GPU device ID to use
+    --skip-setup                 Skip model setup
+    --questions-dir DIR          Custom questions directory (default: data/questions)
+    -h, --help                   Show this help message
 
 Examples:
     $0 --model hunyuan-video-i2v
     $0 --model hunyuan-video-i2v --gpu 0
     $0 --model hunyuan-video-i2v --skip-setup
+    $0 --model hunyuan-video-i2v --questions-dir ./custom_questions
 EOF
 }
 
@@ -51,6 +54,10 @@ while [[ $# -gt 0 ]]; do
         --skip-setup)
             SKIP_SETUP=true
             shift
+            ;;
+        --questions-dir)
+            CUSTOM_QUESTIONS_DIR="$2"
+            shift 2
             ;;
         -h|--help)
             show_help
@@ -115,10 +122,13 @@ setup_model() {
 
 # Main execution
 main() {
+    # Use custom questions directory if provided, otherwise use default
+    local questions_dir="${CUSTOM_QUESTIONS_DIR:-$QUESTIONS_DIR}"
+    
     echo "🎯 VMEvalKit Inference Runner"
     echo "Model: $MODEL"
     [[ -n "$GPU" ]] && echo "GPU: $GPU"
-    echo "Questions dir: $QUESTIONS_DIR"
+    echo "Questions dir: $questions_dir"
     echo "Output dir: $OUTPUT_DIR"
     echo
 
@@ -133,7 +143,7 @@ main() {
     cmd_args=(
         "python" "$GENERATE_SCRIPT"
         "--model" "$MODEL"
-        "--questions-dir" "$QUESTIONS_DIR"
+        "--questions-dir" "$questions_dir"
         "--output-dir" "$OUTPUT_DIR"
     )
     

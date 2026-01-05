@@ -208,5 +208,6 @@ __marimo__/
 
 # Project specific
 data/questions/
+data/eval/
 # Project specific
 data/outputs/

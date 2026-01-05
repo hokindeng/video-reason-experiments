@@ -93,10 +93,16 @@ Generate videos from prompts using a specific model:
 Optional flags:
 - `--gpu <device_id>` - Specify GPU device
 - `--skip-setup` - Skip model checkpoint setup
+- `--questions-dir <path>` - Custom questions folder (default: `data/questions`)
 
-Example:
+Examples:
 ```bash
+# Basic usage
 ./scripts/run_inference.sh --model hunyuan-video-i2v --gpu 0
+
+# With custom questions folder
+./scripts/run_inference.sh --model hunyuan-video-i2v \
+    --questions-dir ./custom_questions
 ```
 
 ### Running Evaluation
