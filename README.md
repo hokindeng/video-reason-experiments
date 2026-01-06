@@ -91,17 +91,18 @@ Examples:
 ./scripts/run_inference.sh --model hunyuan-video-i2v \
     --questions-dir ./custom_questions
 
-python scripts/run_inference.py --model wan-2.2-ti2v-5b --questions-dir ./data/questions/G-1_object_trajectory_task --gpu 2
 
+pip install diffusers transformers==4.57.3 dotenv
+python scripts/run_inference.py --model wan-2.2-ti2v-5b --questions-dir ./data/questions/G-7_return_to_correct_bin_task --gpu 4 > gpu4.log 2>&1
+python scripts/run_inference.py --model wan-2.2-ti2v-5b --questions-dir ./data/questions/G-10_matching_object_task --gpu 5 > gpu5.log 2>&1
+python scripts/run_inference.py --model wan-2.2-ti2v-5b --questions-dir ./data/questions/G-79_light_sequence_task --gpu 7 > gpu7.log 2>&1
+python scripts/run_inference.py --model wan-2.2-ti2v-5b --questions-dir ./data/questions/G-83_nonogram_task --gpu 2 > h100gpu2.log 2>&1
+python scripts/run_inference.py --model wan-2.2-ti2v-5b --questions-dir ./data/questions/G-86_rotation_puzzle_task --gpu 3 > h100gpu3.log 2>&1
 ```
 
 ### Running Evaluation
 
 Evaluate generated videos using one of three strategies:
-
-```bash
-./scripts/run_evaluation.sh --eval-method <method>
-```
 
 Available methods:
 - `multi_frame_uniform` - Uniform sampling across frames
@@ -111,6 +112,12 @@ Available methods:
 Example:
 ```bash
 ./scripts/run_evaluation.sh --eval-method hybrid_sampling
+python scripts/run_evaluation.py --eval-method hybrid_sampling
+
+# internvl
+uv pip install lmdeploy timm peft>=0.17.0 openai
+cd VMEvalKit
+bash script/lmdeploy_server.sh
 ```
 
 ### Syncing Data with S3
