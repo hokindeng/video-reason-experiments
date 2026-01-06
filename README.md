@@ -26,19 +26,6 @@ cd video-reason-experiments
 git submodule update --init --recursive
 ```
 
-**To update to the latest dev branch** (optional):
-
-```bash
-git submodule update --remote --recursive
-```
-
-After updating to latest, commit the change:
-
-```bash
-git add VMEvalKit
-git commit -m "Update VMEvalKit submodule to latest dev"
-```
-
 ### 3. Create Virtual Environment
 
 Create and activate a Python virtual environment:
@@ -103,6 +90,9 @@ Examples:
 # With custom questions folder
 ./scripts/run_inference.sh --model hunyuan-video-i2v \
     --questions-dir ./custom_questions
+
+python scripts/run_inference.py --model wan-2.2-ti2v-5b --questions-dir ./data/questions/G-1_object_trajectory_task --gpu 2
+
 ```
 
 ### Running Evaluation
