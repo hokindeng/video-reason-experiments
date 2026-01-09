@@ -8,7 +8,7 @@ Wrapper for running video reasoning experiments using VMEvalKit.
 # Clone and setup
 git clone https://github.com/hokindeng/video-reason-experiments.git
 cd video-reason-experiments
-git submodule update --init --recursive --remote
+git submodule update --init --recursive --remote --merge
 
 # Environment
 python3 -m venv env && source env/bin/activate
