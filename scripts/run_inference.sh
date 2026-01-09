@@ -159,6 +159,16 @@ main() {
     # Execute with real-time output streaming
     cd "$VMEVALKIT_DIR"
     
+    # Activate model's virtual environment
+    local venv_path="$VMEVALKIT_DIR/envs/$MODEL"
+    if [[ -f "$venv_path/bin/activate" ]]; then
+        echo "🐍 Activating venv: $venv_path"
+        source "$venv_path/bin/activate"
+    else
+        echo "❌ Virtual environment not found at: $venv_path" >&2
+        exit 1
+    fi
+    
     # Use unbuffered output and exec to replace shell with python process
     export PYTHONUNBUFFERED=1
     
