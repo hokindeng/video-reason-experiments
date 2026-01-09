@@ -34,7 +34,7 @@ python data/s3_sync.py download s3://your-bucket/questions ./data/questions
 
 ## Models
 
-**Supported models:** `hunyuan-video-i2v`, `cogvideox-5b-i2v`, `ltx-video`
+**Supported models:** All 29+ models in VMEvalKit (see `VMEvalKit/docs/MODELS.md` for full list)
 
 **Evaluation methods:** `multi_frame_uniform`, `keyframe_detection`, `hybrid_sampling`
 
