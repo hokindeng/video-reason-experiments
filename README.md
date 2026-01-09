@@ -159,6 +159,31 @@ video-reason-experiments/
 └── VMEvalKit/            # Git submodule
 ```
 
+## Output Structure
+
+Generated videos are organized in a clean, flat 3-level hierarchy:
+
+```
+data/outputs/
+└── {model}/                      # Model name (e.g., hunyuan-video-i2v)
+    └── {task}/                   # Task type (e.g., object_trajectory_task)
+        └── {question_id}/        # Question identifier (e.g., object_trajectory_0000)
+            ├── question/         # Self-contained input data
+            │   ├── first_frame.png
+            │   ├── final_frame.png (if available)
+            │   ├── prompt.txt
+            │   └── ground_truth.mp4 (if available)
+            └── video/
+                └── video.mp4     # Generated video (standard filename)
+```
+
+**Key Features:**
+- **Predictable paths**: Every video is at `{model}/{task}/{id}/video/video.mp4`
+- **Self-contained**: Each output includes all inputs needed for evaluation
+- **Consistent naming**: All models use the same `video.mp4` filename
+- **No redundancy**: No timestamp folders or metadata files
+- **Easy to script**: Simple, flat structure with standard filenames
+
 ## Evaluation Strategies
 
 ### Multi-Frame Uniform

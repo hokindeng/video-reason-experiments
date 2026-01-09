@@ -125,6 +125,11 @@ main() {
     # Use custom questions directory if provided, otherwise use default
     local questions_dir="${CUSTOM_QUESTIONS_DIR:-$QUESTIONS_DIR}"
     
+    # Convert questions_dir to absolute path if it's relative
+    if [[ ! "$questions_dir" = /* ]]; then
+        questions_dir="$(cd "$PROJECT_ROOT" && cd "$questions_dir" && pwd)"
+    fi
+    
     echo "🎯 VMEvalKit Inference Runner"
     echo "Model: $MODEL"
     [[ -n "$GPU" ]] && echo "GPU: $GPU"
