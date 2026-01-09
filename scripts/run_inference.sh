@@ -78,6 +78,13 @@ if [[ -z "$MODEL" ]]; then
     exit 1
 fi
 
+# Check if model venv exists (venv is at VMEvalKit/envs/<model_name>)
+model_venv_exists() {
+    local model_name="$1"
+    local venv_path="$VMEVALKIT_DIR/envs/$model_name"
+    [[ -f "$venv_path/bin/python" ]]
+}
+
 # Setup model function
 setup_model() {
     local model_name="$1"
@@ -88,22 +95,9 @@ setup_model() {
         return 0
     fi
     
-    # Check if model is already set up
-    local checkpoint_path=""
-    case "$model_name" in
-        "hunyuan-video-i2v")
-            checkpoint_path="$VMEVALKIT_DIR/submodules/HunyuanVideo-I2V/ckpts/text_encoder_2"
-            ;;
-        "cogvideox-5b-i2v")
-            checkpoint_path="$VMEVALKIT_DIR/submodules/CogVideoX/ckpts"
-            ;;
-        "ltx-video")
-            checkpoint_path="$VMEVALKIT_DIR/submodules/ltx-video/ckpts"
-            ;;
-    esac
-    
-    if [[ -n "$checkpoint_path" && -d "$checkpoint_path" ]]; then
-        echo "✅ Model $model_name already set up"
+    # Check if model venv already exists
+    if model_venv_exists "$model_name"; then
+        echo "✅ Model $model_name already set up (venv exists)"
         return 0
     fi
     
