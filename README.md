@@ -1,205 +1,42 @@
 # video-reason-experiments
 
-This is the codebase for running all VM datasets on video models using VMEvalKit.
+Wrapper for running video reasoning experiments using VMEvalKit.
 
-## Quick Setup Guide
-
-### Prerequisites
-
-- Python 3.8+
-- Git with submodule support
-- CUDA-capable GPU (for model inference)
-- AWS account (for S3 data sync)
-
-### 1. Clone Repository
+## Setup
 
 ```bash
-git clone <repository-url> video-reason-experiments
+# Clone and setup
+git clone https://github.com/hokindeng/video-reason-experiments.git
 cd video-reason-experiments
-```
+git submodule update --init --recursive --remote --merge
 
-### 2. Initialize VMEvalKit Submodule
-
-**For first-time setup** (uses locked commit version):
-
-```bash
-git submodule update --init --recursive
-```
-
-### 3. Create Virtual Environment
-
-Create and activate a Python virtual environment:
-
-```bash
-python3 -m venv env
-source env/bin/activate  # On Linux/macOS
-# env\Scripts\activate  # On Windows
-```
-
-### 4. Install Dependencies
-
-```bash
+# Environment
+python3 -m venv env && source env/bin/activate
 pip install -r requirements.txt
-```
 
-### 5. Configure AWS Credentials
-
-Copy the environment template and fill in your AWS credentials:
-
-```bash
-cp env.template .env
-```
-
-Edit `.env` with your credentials:
-
-```bash
-AWS_ACCESS_KEY_ID=your_access_key_here
-AWS_SECRET_ACCESS_KEY=your_secret_key_here
-AWS_DEFAULT_REGION=us-east-1
-AWS_S3_BUCKET=vm-dataset
-```
-
-### 6. Download Question Data (Optional)
-
-If your questions are stored in S3:
-
-```bash
-python data/s3_sync.py download s3://your-bucket/questions ./data/questions
+# AWS credentials (optional)
+cp env.template .env  # Edit with your AWS credentials
 ```
 
 ## Usage
 
-### Running Inference
-
-Generate videos from prompts using a specific model:
-
 ```bash
-./scripts/run_inference.sh --model hunyuan-video-i2v
-```
+# Generate videos
+./scripts/run_inference.sh --model hunyuan-video-i2v --gpu 0 --questions-dir ./data/questions
 
-Optional flags:
-- `--gpu <device_id>` - Specify GPU device
-- `--skip-setup` - Skip model checkpoint setup
-- `--questions-dir <path>` - Custom questions folder (default: `data/questions`)
-
-Examples:
-```bash
-# Basic usage
-./scripts/run_inference.sh --model hunyuan-video-i2v --gpu 0
-
-# With custom questions folder
-./scripts/run_inference.sh --model hunyuan-video-i2v \
-    --questions-dir ./custom_questions
-
-
-pip install diffusers transformers==4.57.3 dotenv
-python scripts/run_inference.py --model wan-2.2-ti2v-5b --questions-dir ./data/questions/G-7_return_to_correct_bin_task --gpu 4 > gpu4.log 2>&1
-python scripts/run_inference.py --model wan-2.2-ti2v-5b --questions-dir ./data/questions/G-10_matching_object_task --gpu 5 > gpu5.log 2>&1
-python scripts/run_inference.py --model wan-2.2-ti2v-5b --questions-dir ./data/questions/G-79_light_sequence_task --gpu 7 > gpu7.log 2>&1
-python scripts/run_inference.py --model wan-2.2-ti2v-5b --questions-dir ./data/questions/G-83_nonogram_task --gpu 2 > h100gpu2.log 2>&1
-python scripts/run_inference.py --model wan-2.2-ti2v-5b --questions-dir ./data/questions/G-86_rotation_puzzle_task --gpu 3 > h100gpu3.log 2>&1
-```
-
-### Running Evaluation
-
-Evaluate generated videos using one of three strategies:
-
-Available methods:
-- `multi_frame_uniform` - Uniform sampling across frames
-- `keyframe_detection` - SSIM-based keyframe detection
-- `hybrid_sampling` - Combined approach
-
-Example:
-```bash
+# Evaluate videos  
 ./scripts/run_evaluation.sh --eval-method hybrid_sampling
-python scripts/run_evaluation.py --eval-method hybrid_sampling
 
-# internvl
-uv pip install lmdeploy timm peft>=0.17.0 openai
-cd VMEvalKit
-bash script/lmdeploy_server.sh
-```
-
-### Syncing Data with S3
-
-Upload results:
-```bash
+# S3 sync
 python data/s3_sync.py upload ./data/outputs s3://your-bucket/outputs
+python data/s3_sync.py download s3://your-bucket/questions ./data/questions
 ```
 
-Download datasets:
-```bash
-python data/s3_sync.py download s3://your-bucket/datasets ./data/datasets
-```
+## Models
 
-## Supported Models
+**Supported models:** All 29+ models in VMEvalKit (see `VMEvalKit/docs/MODELS.md` for full list)
 
-- `hunyuan-video-i2v` - Hunyuan Video I2V
-- `cogvideox-5b-i2v` - CogVideoX 5B I2V
-- `ltx-video` - LTX Video
-
-Models are automatically set up on first run (downloads checkpoints to `VMEvalKit/submodules/`).
-
-## Directory Structure
-
-```
-video-reason-experiments/
-├── configs/eval/          # Evaluation configurations
-│   ├── multi_frame_uniform.json
-│   ├── keyframe_detection.json
-│   └── hybrid_sampling.json
-├── data/
-│   ├── questions/         # Input prompts (created on first run)
-│   ├── outputs/           # Generated videos (created on first run)
-│   ├── evaluations/       # Evaluation results (created on first run)
-│   └── s3_sync.py        # S3 utility script
-├── scripts/
-│   ├── run_inference.sh   # Video generation runner
-│   └── run_evaluation.sh  # Evaluation runner
-└── VMEvalKit/            # Git submodule
-```
-
-## Output Structure
-
-Generated videos are organized in a clean, flat 3-level hierarchy:
-
-```
-data/outputs/
-└── {model}/                      # Model name (e.g., hunyuan-video-i2v)
-    └── {task}/                   # Task type (e.g., object_trajectory_task)
-        └── {question_id}/        # Question identifier (e.g., object_trajectory_0000)
-            ├── question/         # Self-contained input data
-            │   ├── first_frame.png
-            │   ├── final_frame.png (if available)
-            │   ├── prompt.txt
-            │   └── ground_truth.mp4 (if available)
-            └── video/
-                └── video.mp4     # Generated video (standard filename)
-```
-
-**Key Features:**
-- **Predictable paths**: Every video is at `{model}/{task}/{id}/video/video.mp4`
-- **Self-contained**: Each output includes all inputs needed for evaluation
-- **Consistent naming**: All models use the same `video.mp4` filename
-- **No redundancy**: No timestamp folders or metadata files
-- **Easy to script**: Simple, flat structure with standard filenames
-
-## Evaluation Strategies
-
-### Multi-Frame Uniform
-- Samples 8 frames uniformly from last 3 seconds
-- Uses histogram-based metrics
-- Best for smooth, continuous motion
-
-### Keyframe Detection
-- Detects significant frame changes using SSIM
-- Focuses on important visual transitions
-- Best for scene changes and cuts
-
-### Hybrid Sampling
-- Combines uniform and keyframe approaches
-- Balanced temporal weighting
-- Best general-purpose strategy
+**Evaluation methods:** `multi_frame_uniform`, `keyframe_detection`, `hybrid_sampling`
 
 ## License
 
