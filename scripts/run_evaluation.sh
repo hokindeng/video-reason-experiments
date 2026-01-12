@@ -14,7 +14,7 @@ usage() {
     echo "Usage: $0 --eval-method <method>"
     echo ""
     echo "Options:"
-    echo "  --eval-method    Evaluation method: multi_frame_uniform | keyframe_detection | hybrid_sampling"
+    echo "  --eval-method    Evaluation method: multi_frame_uniform | keyframe_detection | hybrid_sampling | last_frame"
     exit 1
 }
 
@@ -40,11 +40,11 @@ if [[ -z "$EVAL_METHOD" ]]; then
 fi
 
 case "$EVAL_METHOD" in
-    multi_frame_uniform|keyframe_detection|hybrid_sampling)
+    multi_frame_uniform|keyframe_detection|hybrid_sampling|last_frame)
         ;;
     *)
         echo "❌ Invalid eval method: $EVAL_METHOD"
-        echo "   Must be one of: multi_frame_uniform, keyframe_detection, hybrid_sampling"
+        echo "   Must be one of: multi_frame_uniform, keyframe_detection, hybrid_sampling, last_frame"
         exit 1
         ;;
 esac
