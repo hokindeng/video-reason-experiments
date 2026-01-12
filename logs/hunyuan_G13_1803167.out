@@ -1,0 +1,98 @@
+==========================================
+Job ID: 1803167
+Job Name: hunyuan-G13
+Node: gh048
+Start Time: Sun 11 Jan 2026 08:02:31 PM CST
+Working Directory: /u/yli8/hokin/video-reason-experiments
+==========================================
+
+Loaded modules:
+
+GPU Information:
+Sun Jan 11 20:02:42 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.163.01             Driver Version: 550.163.01     CUDA Version: 12.6     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GH200 120GB             On  |   00000019:01:00.0 Off |                    0 |
+| N/A   20C    P0             98W /  900W |      85MiB /  97871MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+Starting inference...
+Model: hunyuan-video-i2v
+Task: G-13_grid_number_sequence_data-generator
+Questions dir: ./data/questions/G-13_grid_number_sequence_data-generator
+
+🎯 VMEvalKit Inference Runner
+Model: hunyuan-video-i2v
+GPU: 0
+Questions dir: /u/yli8/hokin/video-reason-experiments/data/questions/G-13_grid_number_sequence_data-generator
+Output dir: /u/yli8/hokin/video-reason-experiments/data/outputs
+
+🚀 Running: python /u/yli8/hokin/video-reason-experiments/VMEvalKit/examples/generate_videos.py --model hunyuan-video-i2v --questions-dir /u/yli8/hokin/video-reason-experiments/data/questions/G-13_grid_number_sequence_data-generator --output-dir /u/yli8/hokin/video-reason-experiments/data/outputs --gpu 0
+Working directory: /u/yli8/hokin/video-reason-experiments/VMEvalKit
+================================================================================
+🐍 Activating venv: /u/yli8/hokin/video-reason-experiments/VMEvalKit/envs/hunyuan-video-i2v
+🎮 Using GPU 0 (CUDA_VISIBLE_DEVICES=0)
+🔍 Discovering human-approved tasks from folder structure...
+🔍 Discovering tasks from: /u/yli8/hokin/video-reason-experiments/data/questions/G-13_grid_number_sequence_data-generator
+   📁 Scanning grid_number_sequence_task/
+      ✅ Found 50 tasks in grid_number_sequence
+
+📊 Discovery Summary: 50 total tasks
+   grid_number_sequence: 50 tasks
+   🎯 Running all discovered tasks
+
+🎯 Selected 1 model(s): hunyuan-video-i2v
+
+🔍 Verifying 1 model(s) for testing...
+   ✅ hunyuan-video-i2v: HunyuanVideo
+🚀 VMEVAL KIT EXPERIMENT - CLEAN EXECUTION
+
+📊 Experiment Configuration:
+   Models to run: 1 - hunyuan-video-i2v
+   Domains: 1
+   🔄 Execution Mode: SEQUENTIAL
+
+📈 Task Distribution:
+   Grid_Number_Sequence: 50 approved tasks
+   Total approved tasks: 50
+   Total generations: 50
+
+📁 Output directory: /u/yli8/hokin/video-reason-experiments/data/outputs
+   Skip existing: True
+
+📁 Output directory structure ready at: /u/yli8/hokin/video-reason-experiments/data/outputs
+   Each inference will create a self-contained folder with:
+   - video/: Generated video file
+   - question/: Input images and prompt
+   - metadata.json: Complete inference metadata
+📁 Created per-model folders under: /u/yli8/hokin/video-reason-experiments/data/outputs and mirrored question tasks
+📋 Total inference jobs to run: 50
+🚀 Starting sequential execution...
+
+   Processing order: Model by model, task by task
+
+🤖 Processing Model: HunyuanVideo (hunyuan-video-i2v)
+
+  📚 Domain: Grid_Number_Sequence
+    [1/50] Processing: grid_number_sequence_0000
+
+  🎬 Generating: grid_number_sequence_0000 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-13_grid_number_sequence_data-generator/grid_number_sequence_task/grid_number_sequence_0000/first_frame.png
+     Prompt: The scene shows a 10x10 grid with a green start point, a red end point, and yell...
+Using model-specific Python: /u/yli8/hokin/video-reason-experiments/VMEvalKit/envs/hunyuan-video-i2v/bin/python
+📦 Loaded model: hunyuan-video-i2v (will be reused for all tasks)
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation

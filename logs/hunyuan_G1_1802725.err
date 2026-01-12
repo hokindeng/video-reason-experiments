@@ -1,0 +1,31 @@
+A conda environment has been detected CONDA_PREFIX=
+/sw/user/python/miniforge3-pytorch-24.11.3 
+miniconda3 is loaded. Consider running conda deactivate and reloading it.
+Lmod has detected the following error: These module(s) or extension(s) exist
+but cannot be loaded as requested: "cray-libsci"
+   Try: "module spider cray-libsci" to see how to load the module(s).
+
+While processing the following module(s):
+    Module fullname                  Module Filename
+    ---------------                  ---------------
+    craype-accel-nvidia90            /opt/cray/pe/lmod/modulefiles/craype-targets/default/craype-accel-nvidia90.lua
+    python/miniforge3_pytorch/2.7.0  /sw/user/modules/python/miniforge3_pytorch/2.7.0.lua
+
+AWS OFI NCCL Plugin v1.6.0 loaded for CUDA 12.6.1
+This provides network transport ONLY - NCCL library from PyTorch
+Configured for Slingshot11/CXI interconnect
+CUDA 12.6.1 loaded with compatible AWS OFI NCCL plugin v1.6.0
+Plugin provides network transport - NCCL library from PyTorch
+Use with python/miniforge3_pytorch/2.7.0 or equivalent for best compatibility
+
+Currently Loaded Modules:
+  1) craype/2.7.32                     7) cuda-compat/12.6
+  2) cray-dsmml/0.3.0                  8) libfabric/1.20.1
+  3) PrgEnv-gnu/8.5.0                  9) nccl-ofi-plugin/1.6.0-cuda126
+  4) craype-accel-nvidia90            10) cuda/12.6.1
+  5) python/miniforge3_pytorch/2.7.0  11) cray-mpich/8.1.30
+  6) gcc-native/12.3                  12) cray-libsci/24.07.0
+
+ 
+
+[2026-01-11T20:02:19.808] error: *** JOB 1802725 ON gh014 CANCELLED AT 2026-01-11T20:02:19 DUE to SIGNAL Terminated ***

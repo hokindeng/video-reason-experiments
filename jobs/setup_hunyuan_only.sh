@@ -59,6 +59,9 @@ pip install -q "transformers==4.39.3"
 pip install -q "tokenizers==0.15.0"
 pip install -q --only-binary=:all: "pyarrow==14.0.1"
 pip install -q "tensorboard==2.19.0"
+pip install -q --only-binary=:all: --no-deps "deepspeed"  # Only 0.3.1.dev5 has aarch64 wheel; unused for inference
+pip install -q "tensorboardX==1.8" "ninja==1.11.1.1"  # Required by deepspeed
+pip install -q "protobuf==3.20.3"  # tensorboardX 1.8 needs protobuf 3.20.x
 
 # Pin CLIP by commit SHA for reproducibility
 pip install -q --no-build-isolation "git+https://github.com/openai/CLIP.git@dcba3cb2e2827b402d2701e7e1c7d9fed8a20ef1"
@@ -73,14 +76,75 @@ echo "✅ Verifying torchvision ops are present (must be True):"
 python -c "import torchvision; print(getattr(torchvision.extension,'_has_ops')())"
 
 echo ""
-echo "📌 Next: install flash-attn into this venv via SLURM:"
-echo "   sbatch ${PROJECT_ROOT}/jobs/install_flash_attention.slurm"
+echo "────────────────────────────────────────────────────────────────"
+echo "Downloading Model Checkpoints"
+echo "────────────────────────────────────────────────────────────────"
+
+HUNYUAN_CKPTS_DIR="${PROJECT_ROOT}/VMEvalKit/submodules/HunyuanVideo-I2V/ckpts"
+HUNYUAN_MODEL_DIR="${HUNYUAN_CKPTS_DIR}/hunyuan-video-i2v-720p"
+TEXT_ENCODER_DIR="${HUNYUAN_CKPTS_DIR}/text_encoder_i2v"
+CLIP_TEXT_ENCODER_DIR="${HUNYUAN_CKPTS_DIR}/text_encoder_2"
+
+# Download main model weights (~20GB)
+if [[ -d "${HUNYUAN_MODEL_DIR}" ]] && [[ -n "$(ls -A "${HUNYUAN_MODEL_DIR}" 2>/dev/null)" ]]; then
+    echo "⏭️  HunyuanVideo-I2V weights already present at ${HUNYUAN_MODEL_DIR}"
+else
+    echo "📥 Downloading HunyuanVideo-I2V weights (~20GB, resume supported)..."
+    mkdir -p "${HUNYUAN_CKPTS_DIR}"
+    huggingface-cli download tencent/HunyuanVideo-I2V \
+        --local-dir "${HUNYUAN_CKPTS_DIR}" \
+        --local-dir-use-symlinks False \
+        --resume-download
+    echo "   ✅ Weights ready at ${HUNYUAN_MODEL_DIR}"
+fi
+
+# Download text encoder (LLaVA-Llama-3-8B, ~16GB)
+if [[ -d "${TEXT_ENCODER_DIR}" ]] && [[ -f "${TEXT_ENCODER_DIR}/preprocessor_config.json" ]]; then
+    echo "⏭️  HunyuanVideo-I2V text encoder already present at ${TEXT_ENCODER_DIR}"
+else
+    if [[ -d "${TEXT_ENCODER_DIR}" ]]; then
+        echo "📥 Removing incomplete text encoder..."
+        rm -rf "${TEXT_ENCODER_DIR}"
+    fi
+    echo "📥 Downloading HunyuanVideo-I2V text encoder (~16GB)..."
+    mkdir -p "${TEXT_ENCODER_DIR}"
+    huggingface-cli download xtuner/llava-llama-3-8b-v1_1-transformers \
+        --local-dir "${TEXT_ENCODER_DIR}" \
+        --local-dir-use-symlinks False \
+        --resume-download
+    echo "   ✅ Text encoder ready at ${TEXT_ENCODER_DIR}"
+fi
+
+# Download CLIP text encoder (~1.7GB)
+if [[ -d "${CLIP_TEXT_ENCODER_DIR}" ]] && [[ -n "$(ls -A "${CLIP_TEXT_ENCODER_DIR}" 2>/dev/null)" ]]; then
+    echo "⏭️  HunyuanVideo-I2V CLIP text encoder already present at ${CLIP_TEXT_ENCODER_DIR}"
+else
+    if [[ -d "${CLIP_TEXT_ENCODER_DIR}" ]]; then
+        echo "📥 Removing incomplete CLIP text encoder..."
+        rm -rf "${CLIP_TEXT_ENCODER_DIR}"
+    fi
+    echo "📥 Downloading CLIP-L text encoder (~1.7GB)..."
+    mkdir -p "${CLIP_TEXT_ENCODER_DIR}"
+    huggingface-cli download openai/clip-vit-large-patch14 \
+        --local-dir "${CLIP_TEXT_ENCODER_DIR}" \
+        --local-dir-use-symlinks False \
+        --resume-download
+    echo "   ✅ CLIP text encoder ready at ${CLIP_TEXT_ENCODER_DIR}"
+fi
 
 deactivate
 
-echo "✅ Setup complete!"
 echo ""
-echo "Environment location: ${VENV_PATH}"
+echo "════════════════════════════════════════════════════════════════"
+echo "✅ HunyuanVideo-I2V Setup Complete!"
+echo "════════════════════════════════════════════════════════════════"
 echo ""
-echo "Now you can submit jobs with --skip-setup flag"
+echo "Environment: ${VENV_PATH}"
+echo "Checkpoints: ${HUNYUAN_CKPTS_DIR}"
+echo ""
+echo "📌 Next: install flash-attn into this venv via SLURM:"
+echo "   sbatch ${PROJECT_ROOT}/jobs/install_flash_attention.slurm"
+echo ""
+echo "Then submit jobs with --skip-setup flag:"
+echo "   ./jobs/hunyuan_jobs/submit_hunyuan_G1.sh"
 
