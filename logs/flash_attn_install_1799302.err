@@ -1,0 +1,182 @@
+  Running command Preparing metadata (pyproject.toml)
+  /u/yli8/hokin/video-reason-experiments/video-reason-experiments/VMEvalKit/envs/hunyuan-video-i2v/lib/python3.12/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: BSD License
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+
+
+  torch.__version__  = 2.7.0.dev20250224+cu126
+
+
+  running dist_info
+  creating /tmp/pip-modern-metadata-yjxhnhg7/flash_attn.egg-info
+  writing /tmp/pip-modern-metadata-yjxhnhg7/flash_attn.egg-info/PKG-INFO
+  writing dependency_links to /tmp/pip-modern-metadata-yjxhnhg7/flash_attn.egg-info/dependency_links.txt
+  writing requirements to /tmp/pip-modern-metadata-yjxhnhg7/flash_attn.egg-info/requires.txt
+  writing top-level names to /tmp/pip-modern-metadata-yjxhnhg7/flash_attn.egg-info/top_level.txt
+  writing manifest file '/tmp/pip-modern-metadata-yjxhnhg7/flash_attn.egg-info/SOURCES.txt'
+  reading manifest file '/tmp/pip-modern-metadata-yjxhnhg7/flash_attn.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no files found matching '*.cu' under directory 'flash_attn'
+  warning: no files found matching '*.h' under directory 'flash_attn'
+  warning: no files found matching '*.cuh' under directory 'flash_attn'
+  warning: no files found matching '*.cpp' under directory 'flash_attn'
+  warning: no files found matching '*.hpp' under directory 'flash_attn'
+  adding license file 'LICENSE'
+  adding license file 'AUTHORS'
+  writing manifest file '/tmp/pip-modern-metadata-yjxhnhg7/flash_attn.egg-info/SOURCES.txt'
+  creating '/tmp/pip-modern-metadata-yjxhnhg7/flash_attn-2.7.4.post1.dist-info'
+  Running command Building wheel for flash-attn (pyproject.toml)
+  /u/yli8/hokin/video-reason-experiments/video-reason-experiments/VMEvalKit/envs/hunyuan-video-i2v/lib/python3.12/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: BSD License
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+
+
+  torch.__version__  = 2.7.0.dev20250224+cu126
+
+
+  running bdist_wheel
+  running build
+  running build_py
+  creating build/lib.linux-aarch64-cpython-312/flash_attn
+  copying flash_attn/__init__.py -> build/lib.linux-aarch64-cpython-312/flash_attn
+  copying flash_attn/bert_padding.py -> build/lib.linux-aarch64-cpython-312/flash_attn
+  copying flash_attn/flash_attn_interface.py -> build/lib.linux-aarch64-cpython-312/flash_attn
+  copying flash_attn/flash_attn_triton.py -> build/lib.linux-aarch64-cpython-312/flash_attn
+  copying flash_attn/flash_attn_triton_og.py -> build/lib.linux-aarch64-cpython-312/flash_attn
+  copying flash_attn/flash_blocksparse_attention.py -> build/lib.linux-aarch64-cpython-312/flash_attn
+  copying flash_attn/flash_blocksparse_attn_interface.py -> build/lib.linux-aarch64-cpython-312/flash_attn
+  copying flash_attn/fused_softmax.py -> build/lib.linux-aarch64-cpython-312/flash_attn
+  creating build/lib.linux-aarch64-cpython-312/hopper
+  copying hopper/__init__.py -> build/lib.linux-aarch64-cpython-312/hopper
+  copying hopper/benchmark_attn.py -> build/lib.linux-aarch64-cpython-312/hopper
+  copying hopper/benchmark_flash_attention_fp8.py -> build/lib.linux-aarch64-cpython-312/hopper
+  copying hopper/benchmark_split_kv.py -> build/lib.linux-aarch64-cpython-312/hopper
+  copying hopper/flash_attn_interface.py -> build/lib.linux-aarch64-cpython-312/hopper
+  copying hopper/generate_kernels.py -> build/lib.linux-aarch64-cpython-312/hopper
+  copying hopper/padding.py -> build/lib.linux-aarch64-cpython-312/hopper
+  copying hopper/setup.py -> build/lib.linux-aarch64-cpython-312/hopper
+  copying hopper/test_attn_kvcache.py -> build/lib.linux-aarch64-cpython-312/hopper
+  copying hopper/test_flash_attn.py -> build/lib.linux-aarch64-cpython-312/hopper
+  copying hopper/test_kvcache.py -> build/lib.linux-aarch64-cpython-312/hopper
+  copying hopper/test_util.py -> build/lib.linux-aarch64-cpython-312/hopper
+  creating build/lib.linux-aarch64-cpython-312/flash_attn/flash_attn_triton_amd
+  copying flash_attn/flash_attn_triton_amd/__init__.py -> build/lib.linux-aarch64-cpython-312/flash_attn/flash_attn_triton_amd
+  copying flash_attn/flash_attn_triton_amd/bench.py -> build/lib.linux-aarch64-cpython-312/flash_attn/flash_attn_triton_amd
+  copying flash_attn/flash_attn_triton_amd/bwd_prefill.py -> build/lib.linux-aarch64-cpython-312/flash_attn/flash_attn_triton_amd
+  copying flash_attn/flash_attn_triton_amd/bwd_ref.py -> build/lib.linux-aarch64-cpython-312/flash_attn/flash_attn_triton_amd
+  copying flash_attn/flash_attn_triton_amd/fwd_decode.py -> build/lib.linux-aarch64-cpython-312/flash_attn/flash_attn_triton_amd
+  copying flash_attn/flash_attn_triton_amd/fwd_prefill.py -> build/lib.linux-aarch64-cpython-312/flash_attn/flash_attn_triton_amd
+  copying flash_attn/flash_attn_triton_amd/fwd_ref.py -> build/lib.linux-aarch64-cpython-312/flash_attn/flash_attn_triton_amd
+  copying flash_attn/flash_attn_triton_amd/interface_fa.py -> build/lib.linux-aarch64-cpython-312/flash_attn/flash_attn_triton_amd
+  copying flash_attn/flash_attn_triton_amd/interface_torch.py -> build/lib.linux-aarch64-cpython-312/flash_attn/flash_attn_triton_amd
+  copying flash_attn/flash_attn_triton_amd/test.py -> build/lib.linux-aarch64-cpython-312/flash_attn/flash_attn_triton_amd
+  copying flash_attn/flash_attn_triton_amd/utils.py -> build/lib.linux-aarch64-cpython-312/flash_attn/flash_attn_triton_amd
+  creating build/lib.linux-aarch64-cpython-312/flash_attn/layers
+  copying flash_attn/layers/__init__.py -> build/lib.linux-aarch64-cpython-312/flash_attn/layers
+  copying flash_attn/layers/patch_embed.py -> build/lib.linux-aarch64-cpython-312/flash_attn/layers
+  copying flash_attn/layers/rotary.py -> build/lib.linux-aarch64-cpython-312/flash_attn/layers
+  creating build/lib.linux-aarch64-cpython-312/flash_attn/losses
+  copying flash_attn/losses/__init__.py -> build/lib.linux-aarch64-cpython-312/flash_attn/losses
+  copying flash_attn/losses/cross_entropy.py -> build/lib.linux-aarch64-cpython-312/flash_attn/losses
+  creating build/lib.linux-aarch64-cpython-312/flash_attn/models
+  copying flash_attn/models/__init__.py -> build/lib.linux-aarch64-cpython-312/flash_attn/models
+  copying flash_attn/models/baichuan.py -> build/lib.linux-aarch64-cpython-312/flash_attn/models
+  copying flash_attn/models/bert.py -> build/lib.linux-aarch64-cpython-312/flash_attn/models
+  copying flash_attn/models/bigcode.py -> build/lib.linux-aarch64-cpython-312/flash_attn/models
+  copying flash_attn/models/btlm.py -> build/lib.linux-aarch64-cpython-312/flash_attn/models
+  copying flash_attn/models/falcon.py -> build/lib.linux-aarch64-cpython-312/flash_attn/models
+  copying flash_attn/models/gpt.py -> build/lib.linux-aarch64-cpython-312/flash_attn/models
+  copying flash_attn/models/gpt_neox.py -> build/lib.linux-aarch64-cpython-312/flash_attn/models
+  copying flash_attn/models/gptj.py -> build/lib.linux-aarch64-cpython-312/flash_attn/models
+  copying flash_attn/models/llama.py -> build/lib.linux-aarch64-cpython-312/flash_attn/models
+  copying flash_attn/models/opt.py -> build/lib.linux-aarch64-cpython-312/flash_attn/models
+  copying flash_attn/models/vit.py -> build/lib.linux-aarch64-cpython-312/flash_attn/models
+  creating build/lib.linux-aarch64-cpython-312/flash_attn/modules
+  copying flash_attn/modules/__init__.py -> build/lib.linux-aarch64-cpython-312/flash_attn/modules
+  copying flash_attn/modules/block.py -> build/lib.linux-aarch64-cpython-312/flash_attn/modules
+  copying flash_attn/modules/embedding.py -> build/lib.linux-aarch64-cpython-312/flash_attn/modules
+  copying flash_attn/modules/mha.py -> build/lib.linux-aarch64-cpython-312/flash_attn/modules
+  copying flash_attn/modules/mlp.py -> build/lib.linux-aarch64-cpython-312/flash_attn/modules
+  creating build/lib.linux-aarch64-cpython-312/flash_attn/ops
+  copying flash_attn/ops/__init__.py -> build/lib.linux-aarch64-cpython-312/flash_attn/ops
+  copying flash_attn/ops/activations.py -> build/lib.linux-aarch64-cpython-312/flash_attn/ops
+  copying flash_attn/ops/fused_dense.py -> build/lib.linux-aarch64-cpython-312/flash_attn/ops
+  copying flash_attn/ops/layer_norm.py -> build/lib.linux-aarch64-cpython-312/flash_attn/ops
+  copying flash_attn/ops/rms_norm.py -> build/lib.linux-aarch64-cpython-312/flash_attn/ops
+  creating build/lib.linux-aarch64-cpython-312/flash_attn/utils
+  copying flash_attn/utils/__init__.py -> build/lib.linux-aarch64-cpython-312/flash_attn/utils
+  copying flash_attn/utils/benchmark.py -> build/lib.linux-aarch64-cpython-312/flash_attn/utils
+  copying flash_attn/utils/distributed.py -> build/lib.linux-aarch64-cpython-312/flash_attn/utils
+  copying flash_attn/utils/generation.py -> build/lib.linux-aarch64-cpython-312/flash_attn/utils
+  copying flash_attn/utils/pretrained.py -> build/lib.linux-aarch64-cpython-312/flash_attn/utils
+  creating build/lib.linux-aarch64-cpython-312/flash_attn/ops/triton
+  copying flash_attn/ops/triton/__init__.py -> build/lib.linux-aarch64-cpython-312/flash_attn/ops/triton
+  copying flash_attn/ops/triton/cross_entropy.py -> build/lib.linux-aarch64-cpython-312/flash_attn/ops/triton
+  copying flash_attn/ops/triton/k_activations.py -> build/lib.linux-aarch64-cpython-312/flash_attn/ops/triton
+  copying flash_attn/ops/triton/layer_norm.py -> build/lib.linux-aarch64-cpython-312/flash_attn/ops/triton
+  copying flash_attn/ops/triton/linear.py -> build/lib.linux-aarch64-cpython-312/flash_attn/ops/triton
+  copying flash_attn/ops/triton/mlp.py -> build/lib.linux-aarch64-cpython-312/flash_attn/ops/triton
+  copying flash_attn/ops/triton/rotary.py -> build/lib.linux-aarch64-cpython-312/flash_attn/ops/triton
+  running build_ext
+  /sw/user/python/miniforge3-pytorch-24.11.3/lib/python3.12/site-packages/torch/utils/cpp_extension.py:492: UserWarning: There are no g++ version bounds defined for CUDA version 12.6
+    warnings.warn(f'There are no {compiler_name} version bounds defined for CUDA version {cuda_str_version}')
+  building 'flash_attn_2_cuda' extension
+  creating /tmp/pip-install-rihyvr20/flash-attn_33ca383fa9744e64901abea3858f3476/build/temp.linux-aarch64-cpython-312/csrc/flash_attn
+  creating /tmp/pip-install-rihyvr20/flash-attn_33ca383fa9744e64901abea3858f3476/build/temp.linux-aarch64-cpython-312/csrc/flash_attn/src
+  Emitting ninja build file /tmp/pip-install-rihyvr20/flash-attn_33ca383fa9744e64901abea3858f3476/build/temp.linux-aarch64-cpython-312/build.ninja...
+  Compiling objects...
+  Using envvar MAX_JOBS (8) as the number of workers...
+  [1/85] c++ -MMD -MF /tmp/pip-install-rihyvr20/flash-attn_33ca383fa9744e64901abea3858f3476/build/temp.linux-aarch64-cpython-312/csrc/flash_attn/flash_api.o.d -fno-strict-overflow -Wsign-compare -DNDEBUG -O3 -Wall -fPIC -O3 -isystem /sw/user/python/miniforge3-pytorch-24.11.3/include -fPIC -O3 -isystem /sw/user/python/miniforge3-pytorch-24.11.3/include -fPIC -I/tmp/pip-install-rihyvr20/flash-attn_33ca383fa9744e64901abea3858f3476/csrc/flash_attn -I/tmp/pip-install-rihyvr20/flash-attn_33ca383fa9744e64901abea3858f3476/csrc/flash_attn/src -I/tmp/pip-install-rihyvr20/flash-attn_33ca383fa9744e64901abea3858f3476/csrc/cutlass/include -I/sw/user/python/miniforge3-pytorch-24.11.3/lib/python3.12/site-packages/torch/include -I/sw/user/python/miniforge3-pytorch-24.11.3/lib/python3.12/site-packages/torch/include/torch/csrc/api/include -I/sw/user/cudatoolkits/installs/cuda-12.6.1/include -I/u/yli8/hokin/video-reason-experiments/video-reason-experiments/VMEvalKit/envs/hunyuan-video-i2v/include -I/sw/user/python/miniforge3-pytorch-24.11.3/include/python3.12 -c -c /tmp/pip-install-rihyvr20/flash-attn_33ca383fa9744e64901abea3858f3476/csrc/flash_attn/flash_api.cpp -o /tmp/pip-install-rihyvr20/flash-attn_33ca383fa9744e64901abea3858f3476/build/temp.linux-aarch64-cpython-312/csrc/flash_attn/flash_api.o -O3 -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1016"' -DTORCH_EXTENSION_NAME=flash_attn_2_cuda -D_GLIBCXX_USE_CXX11_ABI=1
+  FAILED: /tmp/pip-install-rihyvr20/flash-attn_33ca383fa9744e64901abea3858f3476/build/temp.linux-aarch64-cpython-312/csrc/flash_attn/flash_api.o
+  c++ -MMD -MF /tmp/pip-install-rihyvr20/flash-attn_33ca383fa9744e64901abea3858f3476/build/temp.linux-aarch64-cpython-312/csrc/flash_attn/flash_api.o.d -fno-strict-overflow -Wsign-compare -DNDEBUG -O3 -Wall -fPIC -O3 -isystem /sw/user/python/miniforge3-pytorch-24.11.3/include -fPIC -O3 -isystem /sw/user/python/miniforge3-pytorch-24.11.3/include -fPIC -I/tmp/pip-install-rihyvr20/flash-attn_33ca383fa9744e64901abea3858f3476/csrc/flash_attn -I/tmp/pip-install-rihyvr20/flash-attn_33ca383fa9744e64901abea3858f3476/csrc/flash_attn/src -I/tmp/pip-install-rihyvr20/flash-attn_33ca383fa9744e64901abea3858f3476/csrc/cutlass/include -I/sw/user/python/miniforge3-pytorch-24.11.3/lib/python3.12/site-packages/torch/include -I/sw/user/python/miniforge3-pytorch-24.11.3/lib/python3.12/site-packages/torch/include/torch/csrc/api/include -I/sw/user/cudatoolkits/installs/cuda-12.6.1/include -I/u/yli8/hokin/video-reason-experiments/video-reason-experiments/VMEvalKit/envs/hunyuan-video-i2v/include -I/sw/user/python/miniforge3-pytorch-24.11.3/include/python3.12 -c -c /tmp/pip-install-rihyvr20/flash-attn_33ca383fa9744e64901abea3858f3476/csrc/flash_attn/flash_api.cpp -o /tmp/pip-install-rihyvr20/flash-attn_33ca383fa9744e64901abea3858f3476/build/temp.linux-aarch64-cpython-312/csrc/flash_attn/flash_api.o -O3 -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1016"' -DTORCH_EXTENSION_NAME=flash_attn_2_cuda -D_GLIBCXX_USE_CXX11_ABI=1
+  In file included from /sw/user/python/miniforge3-pytorch-24.11.3/lib/python3.12/site-packages/torch/include/ATen/core/TensorBase.h:14:0,
+                   from /sw/user/python/miniforge3-pytorch-24.11.3/lib/python3.12/site-packages/torch/include/ATen/core/TensorBody.h:38,
+                   from /sw/user/python/miniforge3-pytorch-24.11.3/lib/python3.12/site-packages/torch/include/ATen/core/Tensor.h:3,
+                   from /sw/user/python/miniforge3-pytorch-24.11.3/lib/python3.12/site-packages/torch/include/torch/csrc/utils/variadic.h:3,
+                   from /sw/user/python/miniforge3-pytorch-24.11.3/lib/python3.12/site-packages/torch/include/torch/csrc/api/include/torch/detail/static.h:3,
+                   from /sw/user/python/miniforge3-pytorch-24.11.3/lib/python3.12/site-packages/torch/include/torch/csrc/api/include/torch/python.h:3,
+                   from /tmp/pip-install-rihyvr20/flash-attn_33ca383fa9744e64901abea3858f3476/csrc/flash_attn/flash_api.cpp:6:
+  /sw/user/python/miniforge3-pytorch-24.11.3/lib/python3.12/site-packages/torch/include/c10/util/C++17.h:13:2: error: #error "You're trying to build PyTorch with a too old version of GCC. We need GCC 9 or later."
+   #error \
+    ^~~~~
+  /tmp/pip-install-rihyvr20/flash-attn_33ca383fa9744e64901abea3858f3476/csrc/flash_attn/flash_api.cpp: In function ‘std::vector<at::Tensor> flash::mha_fwd(at::Tensor&, const at::Tensor&, const at::Tensor&, std::optional<at::Tensor>&, std::optional<at::Tensor>&, float, float, bool, int, int, float, bool, std::optional<at::Generator>)’:
+  /tmp/pip-install-rihyvr20/flash-attn_33ca383fa9744e64901abea3858f3476/csrc/flash_attn/flash_api.cpp:368:29: warning: unused variable ‘cc_minor’ [-Wunused-variable]
+       auto [cc_major, cc_minor] = get_compute_capability(get_current_device());
+                               ^
+  /tmp/pip-install-rihyvr20/flash-attn_33ca383fa9744e64901abea3858f3476/csrc/flash_attn/flash_api.cpp: In function ‘std::vector<at::Tensor> flash::mha_varlen_fwd(at::Tensor&, const at::Tensor&, const at::Tensor&, std::optional<at::Tensor>&, const at::Tensor&, const at::Tensor&, std::optional<at::Tensor>&, std::optional<const at::Tensor>&, std::optional<at::Tensor>&, std::optional<at::Tensor>&, int, int, float, float, bool, bool, int, int, float, bool, std::optional<at::Generator>)’:
+  /tmp/pip-install-rihyvr20/flash-attn_33ca383fa9744e64901abea3858f3476/csrc/flash_attn/flash_api.cpp:540:29: warning: unused variable ‘cc_minor’ [-Wunused-variable]
+       auto [cc_major, cc_minor] = get_compute_capability(get_current_device());
+                               ^
+  /tmp/pip-install-rihyvr20/flash-attn_33ca383fa9744e64901abea3858f3476/csrc/flash_attn/flash_api.cpp: In function ‘std::vector<at::Tensor> flash::mha_bwd(const at::Tensor&, const at::Tensor&, const at::Tensor&, const at::Tensor&, const at::Tensor&, const at::Tensor&, std::optional<at::Tensor>&, std::optional<at::Tensor>&, std::optional<at::Tensor>&, std::optional<at::Tensor>&, float, float, bool, int, int, float, bool, std::optional<at::Generator>, std::optional<at::Tensor>&)’:
+  /tmp/pip-install-rihyvr20/flash-attn_33ca383fa9744e64901abea3858f3476/csrc/flash_attn/flash_api.cpp:796:29: warning: unused variable ‘cc_minor’ [-Wunused-variable]
+       auto [cc_major, cc_minor] = get_compute_capability(get_current_device());
+                               ^
+  /tmp/pip-install-rihyvr20/flash-attn_33ca383fa9744e64901abea3858f3476/csrc/flash_attn/flash_api.cpp: In function ‘std::vector<at::Tensor> flash::mha_varlen_bwd(const at::Tensor&, const at::Tensor&, const at::Tensor&, const at::Tensor&, const at::Tensor&, const at::Tensor&, std::optional<at::Tensor>&, std::optional<at::Tensor>&, std::optional<at::Tensor>&, const at::Tensor&, const at::Tensor&, std::optional<at::Tensor>&, int, int, float, float, bool, bool, int, int, float, bool, std::optional<at::Generator>, std::optional<at::Tensor>&)’:
+  /tmp/pip-install-rihyvr20/flash-attn_33ca383fa9744e64901abea3858f3476/csrc/flash_attn/flash_api.cpp:1007:29: warning: unused variable ‘cc_minor’ [-Wunused-variable]
+       auto [cc_major, cc_minor] = get_compute_capability(get_current_device());
+                               ^
+  /tmp/pip-install-rihyvr20/flash-attn_33ca383fa9744e64901abea3858f3476/csrc/flash_attn/flash_api.cpp: In function ‘std::vector<at::Tensor> flash::mha_fwd_kvcache(at::Tensor&, const at::Tensor&, const at::Tensor&, std::optional<const at::Tensor>&, std::optional<const at::Tensor>&, std::optional<const at::Tensor>&, std::optional<const at::Tensor>&, std::optional<const at::Tensor>&, std::optional<const at::Tensor>&, std::optional<const at::Tensor>&, std::optional<at::Tensor>&, std::optional<at::Tensor>&, std::optional<at::Tensor>&, float, bool, int, int, float, bool, int)’:
+  /tmp/pip-install-rihyvr20/flash-attn_33ca383fa9744e64901abea3858f3476/csrc/flash_attn/flash_api.cpp:1228:29: warning: unused variable ‘cc_minor’ [-Wunused-variable]
+       auto [cc_major, cc_minor] = get_compute_capability(get_current_device());
+                               ^
+[2026-01-10T18:08:15.082] error: Detected 1 oom_kill event in StepId=1799302.batch. Some of the step tasks have been OOM Killed.

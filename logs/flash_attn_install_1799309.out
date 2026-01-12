@@ -1,0 +1,13 @@
+════════════════════════════════════════════════════════════════
+Flash-Attention Installation on Compute Node
+════════════════════════════════════════════════════════════════
+Job ID: 1799309
+Node: gh151.hsn.cm.delta.internal.ncsa.edu
+Started: Sat 10 Jan 2026 06:28:54 PM CST
+
+Loading compatible compiler...
+Current GCC: gcc (Spack GCC) 14.2.0
+After module load:
+  GCC: gcc (SUSE Linux) 7.5.0
+❌ ERROR: GCC version 7 is too old (need ≥9 for PyTorch)
+Available modules:
