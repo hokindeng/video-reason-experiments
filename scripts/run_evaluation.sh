@@ -62,5 +62,5 @@ echo "📄 Config: $CONFIG_PATH"
 
 # Execute VMEvalKit
 cd "$VMEVALKIT_DIR"
-python3 "$SCORE_SCRIPT" --eval-config "$CONFIG_PATH"
+python "$SCORE_SCRIPT" --eval-config "$CONFIG_PATH"
 
