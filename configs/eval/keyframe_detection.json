@@ -1,6 +1,7 @@
 {
+  "sampling_strategy": "keyframe",
   "inference_dir": "../data/outputs",
-  "eval_output_dir": "../data/evaluations/{method}/{evaluator}",
+  "eval_output_dir": "../data/evaluations/{strategy}/{evaluator}",
   "temperature": 0.0,
   "multiframe": {
     "n_frames": 8,
@@ -11,5 +12,5 @@
     "temporal_weight": 0.4,
     "confidence_threshold": 0.6
   },
-  "_note": "Evaluator must be specified via --evaluator flag. For multi-frame, use multiframe_gpt4o or multiframe_internvl"
+  "_note": "Evaluator must be specified via --evaluator flag (gpt4o|internvl). Multi-frame evaluation uses keyframe detection."
 }

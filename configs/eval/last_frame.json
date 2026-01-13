@@ -1,6 +1,7 @@
 {
+  "sampling_strategy": "single_frame",
   "inference_dir": "../data/outputs",
-  "eval_output_dir": "../data/evaluations/{method}/{evaluator}",
+  "eval_output_dir": "../data/evaluations/{strategy}/{evaluator}",
   "temperature": 0.0,
   "api_key": null,
   "_note": "Evaluator must be specified via --evaluator flag (gpt4o|internvl|qwen)"
