@@ -11,10 +11,39 @@
 #SBATCH --error=/u/yli8/hokin/video-reason-experiments/logs/flash_attn_install_%j.err
 
 ##############################################################################
-# Flash-Attention Installation Batch Job for Grace-Hopper (GH200)
+# Flash-Attention Installation for ARM64 Grace-Hopper (GH200) HPC
+##############################################################################
 #
-# Submit with: sbatch jobs/install_flash_attention.slurm
-# Monitor with: tail -f logs/flash_attn_install_<JOBID>.out
+# PURPOSE:
+#   Compile flash-attention 2.7.4.post1 from source for ARM64 architecture
+#   with proper GCC version and CUDA architecture targeting.
+#
+# USAGE:
+#   sbatch jobs/install_flash_attention.slurm
+#
+# MONITOR:
+#   tail -f logs/flash_attn_install_<JOBID>.out
+#
+# WHY SPECIAL HANDLING:
+#   1. ARM64 (aarch64) has no pre-built flash-attention wheels
+#   2. CUDA 12.6 requires GCC 9-13 (system has 7.5 or 14.2)
+#   3. Must compile on compute node (login nodes have resource limits)
+#   4. Must use --no-build-isolation to respect loaded GCC module
+#
+# WHAT IT DOES:
+#   1. Finds and uses GCC 13.2 (compatible with CUDA 12.6)
+#   2. Sets TORCH_CUDA_ARCH_LIST="8.0;9.0" (Ampere + Hopper)
+#   3. Compiles with MAX_JOBS=4 (prevents OOM)
+#   4. Installs into VMEvalKit/envs/hunyuan-video-i2v
+#   5. Verifies installation works
+#
+# EXPECTED TIME:
+#   - First run: 15-30 minutes (compilation)
+#   - Subsequent runs: 3 seconds (uses cached wheel)
+#
+# RESULT:
+#   flash-attn==2.7.4.post1 installed and ready for HunyuanVideo
+#
 ##############################################################################
 
 set -euo pipefail

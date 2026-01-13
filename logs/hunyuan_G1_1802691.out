@@ -2166,3 +2166,279 @@ Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
      Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-1_object_trajectory_data-generator/object_trajectory_task/object_trajectory_0029/first_frame.png
      Prompt: The scene contains a triangle object and a dashed target position (indicated by ...
 Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0029
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0029/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0029/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [31/50] Processing: object_trajectory_0030
+
+  🎬 Generating: object_trajectory_0030 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-1_object_trajectory_data-generator/object_trajectory_task/object_trajectory_0030/first_frame.png
+     Prompt: The scene contains a square object and a dashed target position (indicated by a ...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0030
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0030/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0030/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [32/50] Processing: object_trajectory_0031
+
+  🎬 Generating: object_trajectory_0031 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-1_object_trajectory_data-generator/object_trajectory_task/object_trajectory_0031/first_frame.png
+     Prompt: The scene contains a diamond object and a dashed target position (indicated by a...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0031
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0031/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0031/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [33/50] Processing: object_trajectory_0032
+
+  🎬 Generating: object_trajectory_0032 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-1_object_trajectory_data-generator/object_trajectory_task/object_trajectory_0032/first_frame.png
+     Prompt: The scene contains a square object and a dashed target position (indicated by a ...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0032
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0032/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0032/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [34/50] Processing: object_trajectory_0033
+
+  🎬 Generating: object_trajectory_0033 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-1_object_trajectory_data-generator/object_trajectory_task/object_trajectory_0033/first_frame.png
+     Prompt: The scene contains a square object and a dashed target position (indicated by a ...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0033
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0033/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0033/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [35/50] Processing: object_trajectory_0034
+
+  🎬 Generating: object_trajectory_0034 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-1_object_trajectory_data-generator/object_trajectory_task/object_trajectory_0034/first_frame.png
+     Prompt: The scene contains a circle object and a dashed target position (indicated by a ...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0034
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0034/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0034/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [36/50] Processing: object_trajectory_0035
+
+  🎬 Generating: object_trajectory_0035 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-1_object_trajectory_data-generator/object_trajectory_task/object_trajectory_0035/first_frame.png
+     Prompt: The scene contains a triangle object and a dashed target position (indicated by ...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0035
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0035/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0035/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [37/50] Processing: object_trajectory_0036
+
+  🎬 Generating: object_trajectory_0036 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-1_object_trajectory_data-generator/object_trajectory_task/object_trajectory_0036/first_frame.png
+     Prompt: The scene contains a triangle object and a dashed target position (indicated by ...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0036
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0036/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0036/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [38/50] Processing: object_trajectory_0037
+
+  🎬 Generating: object_trajectory_0037 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-1_object_trajectory_data-generator/object_trajectory_task/object_trajectory_0037/first_frame.png
+     Prompt: The scene contains a diamond object and a dashed target position (indicated by a...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0037
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0037/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0037/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [39/50] Processing: object_trajectory_0038
+
+  🎬 Generating: object_trajectory_0038 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-1_object_trajectory_data-generator/object_trajectory_task/object_trajectory_0038/first_frame.png
+     Prompt: The scene contains a diamond object and a dashed target position (indicated by a...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0038
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0038/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0038/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [40/50] Processing: object_trajectory_0039
+
+  🎬 Generating: object_trajectory_0039 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-1_object_trajectory_data-generator/object_trajectory_task/object_trajectory_0039/first_frame.png
+     Prompt: The scene contains a triangle object and a dashed target position (indicated by ...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0039
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0039/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0039/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [41/50] Processing: object_trajectory_0040
+
+  🎬 Generating: object_trajectory_0040 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-1_object_trajectory_data-generator/object_trajectory_task/object_trajectory_0040/first_frame.png
+     Prompt: The scene contains a triangle object and a dashed target position (indicated by ...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0040
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0040/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0040/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [42/50] Processing: object_trajectory_0041
+
+  🎬 Generating: object_trajectory_0041 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-1_object_trajectory_data-generator/object_trajectory_task/object_trajectory_0041/first_frame.png
+     Prompt: The scene contains a circle object and a dashed target position (indicated by a ...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0041
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0041/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0041/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [43/50] Processing: object_trajectory_0042
+
+  🎬 Generating: object_trajectory_0042 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-1_object_trajectory_data-generator/object_trajectory_task/object_trajectory_0042/first_frame.png
+     Prompt: The scene contains a diamond object and a dashed target position (indicated by a...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0042
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0042/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0042/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [44/50] Processing: object_trajectory_0043
+
+  🎬 Generating: object_trajectory_0043 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-1_object_trajectory_data-generator/object_trajectory_task/object_trajectory_0043/first_frame.png
+     Prompt: The scene contains a triangle object and a dashed target position (indicated by ...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0043
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0043/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0043/question/
+     ❌ Failed: HunyuanVideo inference timed out
+      ❌ Failed: HunyuanVideo inference timed out
+    [45/50] Processing: object_trajectory_0044
+
+  🎬 Generating: object_trajectory_0044 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-1_object_trajectory_data-generator/object_trajectory_task/object_trajectory_0044/first_frame.png
+     Prompt: The scene contains a triangle object and a dashed target position (indicated by ...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0044
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0044/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0044/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [46/50] Processing: object_trajectory_0045
+
+  🎬 Generating: object_trajectory_0045 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-1_object_trajectory_data-generator/object_trajectory_task/object_trajectory_0045/first_frame.png
+     Prompt: The scene contains a triangle object and a dashed target position (indicated by ...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0045
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0045/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0045/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [47/50] Processing: object_trajectory_0046
+
+  🎬 Generating: object_trajectory_0046 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-1_object_trajectory_data-generator/object_trajectory_task/object_trajectory_0046/first_frame.png
+     Prompt: The scene contains a square object and a dashed target position (indicated by a ...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0046
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0046/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0046/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [48/50] Processing: object_trajectory_0047
+
+  🎬 Generating: object_trajectory_0047 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-1_object_trajectory_data-generator/object_trajectory_task/object_trajectory_0047/first_frame.png
+     Prompt: The scene contains a square object and a dashed target position (indicated by a ...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0047
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0047/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0047/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [49/50] Processing: object_trajectory_0048
+
+  🎬 Generating: object_trajectory_0048 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-1_object_trajectory_data-generator/object_trajectory_task/object_trajectory_0048/first_frame.png
+     Prompt: The scene contains a triangle object and a dashed target position (indicated by ...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0048
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0048/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0048/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [50/50] Processing: object_trajectory_0049
+
+  🎬 Generating: object_trajectory_0049 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-1_object_trajectory_data-generator/object_trajectory_task/object_trajectory_0049/first_frame.png
+     Prompt: The scene contains a square object and a dashed target position (indicated by a ...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0049
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0049/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/object_trajectory_task/object_trajectory_0049/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+
+  📊 Model HunyuanVideo Summary: 21 completed, 29 failed, 0 skipped in 20h 40m 1s
+
+⏱️  Sequential execution completed in 20h 40m 1s
+🎉 VIDEO GENERATION COMPLETE!
+
+📊 Final Statistics:
+   Models tested: 1
+   Tasks per model: 50
+   Total possible generations: 50
+   Total attempted: 50
+   Completed: 21 (42.0%)
+   Failed: 29 (58.0%)
+   Skipped: 0 (0.0%)
+   ⏱️ Duration: 20h 40m 1s
+
+🎯 Results by Domain:
+   Object_Trajectory: ✅ 21 completed | ❌ 29 failed | ⏭️  0 skipped
+
+🤖 Results by Model:
+   hunyuan-video-i2v: ✅ 21 | ❌ 29 | ⏭️  0
+
+📁 All outputs saved to: /u/yli8/hokin/video-reason-experiments/data/outputs
+================================================================================
+✅ Process completed successfully
+
+==========================================
+Job completed with exit code: 0
+End Time: Mon 12 Jan 2026 03:30:30 PM CST
+==========================================

@@ -96,3 +96,579 @@ Working directory: /u/yli8/hokin/video-reason-experiments/VMEvalKit
 Using model-specific Python: /u/yli8/hokin/video-reason-experiments/VMEvalKit/envs/hunyuan-video-i2v/bin/python
 📦 Loaded model: hunyuan-video-i2v (will be reused for all tasks)
 Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0000
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0000/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0000/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [2/50] Processing: grid_obtaining_award_0001
+
+  🎬 Generating: grid_obtaining_award_0001 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0001/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0001
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0001/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0001/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [3/50] Processing: grid_obtaining_award_0002
+
+  🎬 Generating: grid_obtaining_award_0002 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0002/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0002
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0002/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0002/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [4/50] Processing: grid_obtaining_award_0003
+
+  🎬 Generating: grid_obtaining_award_0003 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0003/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0003
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0003/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0003/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [5/50] Processing: grid_obtaining_award_0004
+
+  🎬 Generating: grid_obtaining_award_0004 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0004/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0004
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0004/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0004/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [6/50] Processing: grid_obtaining_award_0005
+
+  🎬 Generating: grid_obtaining_award_0005 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0005/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0005
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0005/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0005/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [7/50] Processing: grid_obtaining_award_0006
+
+  🎬 Generating: grid_obtaining_award_0006 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0006/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0006
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0006/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0006/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [8/50] Processing: grid_obtaining_award_0007
+
+  🎬 Generating: grid_obtaining_award_0007 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0007/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0007
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0007/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0007/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [9/50] Processing: grid_obtaining_award_0008
+
+  🎬 Generating: grid_obtaining_award_0008 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0008/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0008
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0008/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0008/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [10/50] Processing: grid_obtaining_award_0009
+
+  🎬 Generating: grid_obtaining_award_0009 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0009/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0009
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0009/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0009/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [11/50] Processing: grid_obtaining_award_0010
+
+  🎬 Generating: grid_obtaining_award_0010 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0010/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0010
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0010/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0010/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [12/50] Processing: grid_obtaining_award_0011
+
+  🎬 Generating: grid_obtaining_award_0011 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0011/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0011
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0011/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0011/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [13/50] Processing: grid_obtaining_award_0012
+
+  🎬 Generating: grid_obtaining_award_0012 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0012/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0012
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0012/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0012/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [14/50] Processing: grid_obtaining_award_0013
+
+  🎬 Generating: grid_obtaining_award_0013 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0013/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0013
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0013/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0013/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [15/50] Processing: grid_obtaining_award_0014
+
+  🎬 Generating: grid_obtaining_award_0014 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0014/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0014
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0014/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0014/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [16/50] Processing: grid_obtaining_award_0015
+
+  🎬 Generating: grid_obtaining_award_0015 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0015/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0015
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0015/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0015/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [17/50] Processing: grid_obtaining_award_0016
+
+  🎬 Generating: grid_obtaining_award_0016 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0016/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0016
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0016/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0016/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [18/50] Processing: grid_obtaining_award_0017
+
+  🎬 Generating: grid_obtaining_award_0017 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0017/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0017
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0017/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0017/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [19/50] Processing: grid_obtaining_award_0018
+
+  🎬 Generating: grid_obtaining_award_0018 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0018/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0018
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0018/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0018/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [20/50] Processing: grid_obtaining_award_0019
+
+  🎬 Generating: grid_obtaining_award_0019 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0019/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0019
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0019/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0019/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [21/50] Processing: grid_obtaining_award_0020
+
+  🎬 Generating: grid_obtaining_award_0020 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0020/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0020
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0020/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0020/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [22/50] Processing: grid_obtaining_award_0021
+
+  🎬 Generating: grid_obtaining_award_0021 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0021/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0021
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0021/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0021/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [23/50] Processing: grid_obtaining_award_0022
+
+  🎬 Generating: grid_obtaining_award_0022 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0022/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0022
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0022/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0022/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [24/50] Processing: grid_obtaining_award_0023
+
+  🎬 Generating: grid_obtaining_award_0023 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0023/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0023
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0023/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0023/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [25/50] Processing: grid_obtaining_award_0024
+
+  🎬 Generating: grid_obtaining_award_0024 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0024/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0024
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0024/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0024/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [26/50] Processing: grid_obtaining_award_0025
+
+  🎬 Generating: grid_obtaining_award_0025 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0025/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0025
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0025/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0025/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [27/50] Processing: grid_obtaining_award_0026
+
+  🎬 Generating: grid_obtaining_award_0026 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0026/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0026
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0026/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0026/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [28/50] Processing: grid_obtaining_award_0027
+
+  🎬 Generating: grid_obtaining_award_0027 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0027/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0027
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0027/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0027/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [29/50] Processing: grid_obtaining_award_0028
+
+  🎬 Generating: grid_obtaining_award_0028 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0028/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0028
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0028/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0028/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [30/50] Processing: grid_obtaining_award_0029
+
+  🎬 Generating: grid_obtaining_award_0029 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0029/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0029
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0029/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0029/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [31/50] Processing: grid_obtaining_award_0030
+
+  🎬 Generating: grid_obtaining_award_0030 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0030/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0030
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0030/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0030/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [32/50] Processing: grid_obtaining_award_0031
+
+  🎬 Generating: grid_obtaining_award_0031 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0031/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0031
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0031/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0031/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [33/50] Processing: grid_obtaining_award_0032
+
+  🎬 Generating: grid_obtaining_award_0032 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0032/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0032
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0032/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0032/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [34/50] Processing: grid_obtaining_award_0033
+
+  🎬 Generating: grid_obtaining_award_0033 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0033/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0033
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0033/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0033/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [35/50] Processing: grid_obtaining_award_0034
+
+  🎬 Generating: grid_obtaining_award_0034 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0034/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0034
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0034/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0034/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [36/50] Processing: grid_obtaining_award_0035
+
+  🎬 Generating: grid_obtaining_award_0035 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0035/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0035
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0035/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0035/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [37/50] Processing: grid_obtaining_award_0036
+
+  🎬 Generating: grid_obtaining_award_0036 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0036/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0036
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0036/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0036/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [38/50] Processing: grid_obtaining_award_0037
+
+  🎬 Generating: grid_obtaining_award_0037 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0037/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0037
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0037/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0037/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [39/50] Processing: grid_obtaining_award_0038
+
+  🎬 Generating: grid_obtaining_award_0038 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0038/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0038
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0038/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0038/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [40/50] Processing: grid_obtaining_award_0039
+
+  🎬 Generating: grid_obtaining_award_0039 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0039/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0039
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0039/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0039/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [41/50] Processing: grid_obtaining_award_0040
+
+  🎬 Generating: grid_obtaining_award_0040 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0040/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0040
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0040/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0040/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [42/50] Processing: grid_obtaining_award_0041
+
+  🎬 Generating: grid_obtaining_award_0041 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0041/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0041
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0041/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0041/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [43/50] Processing: grid_obtaining_award_0042
+
+  🎬 Generating: grid_obtaining_award_0042 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0042/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0042
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0042/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0042/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [44/50] Processing: grid_obtaining_award_0043
+
+  🎬 Generating: grid_obtaining_award_0043 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0043/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0043
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0043/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0043/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [45/50] Processing: grid_obtaining_award_0044
+
+  🎬 Generating: grid_obtaining_award_0044 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0044/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0044
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0044/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0044/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [46/50] Processing: grid_obtaining_award_0045
+
+  🎬 Generating: grid_obtaining_award_0045 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0045/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0045
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0045/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0045/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [47/50] Processing: grid_obtaining_award_0046
+
+  🎬 Generating: grid_obtaining_award_0046 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0046/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0046
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0046/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0046/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [48/50] Processing: grid_obtaining_award_0047
+
+  🎬 Generating: grid_obtaining_award_0047 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0047/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0047
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0047/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_obtaining_award_task/grid_obtaining_award_0047/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [49/50] Processing: grid_obtaining_award_0048
+
+  🎬 Generating: grid_obtaining_award_0048 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-12_grid_obtaining_award_data-generator/grid_obtaining_award_task/grid_obtaining_award_0048/first_frame.png
+     Prompt: The scene shows a 10x10 grid containing a green start point, a red end point, an...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation

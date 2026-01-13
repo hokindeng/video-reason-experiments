@@ -1,23 +1,57 @@
 #!/usr/bin/env python3
 """
-Generate SLURM job scripts for all tasks in data/questions/
-Each task runs hunyuan-video-i2v model requiring 80GB VRAM (1 GPU)
+SLURM Job Generator for HunyuanVideo-I2V Inference
+
+PURPOSE:
+    Automatically generate SLURM batch job scripts for all tasks in data/questions/.
+    Each task gets its own job script + individual submit script for flexibility.
+
+USAGE:
+    python3 jobs/generate_all_hunyuan_jobs.py
+
+OUTPUT:
+    - jobs/hunyuan_jobs/hunyuan_G*.slurm (50 SLURM scripts)
+    - jobs/hunyuan_jobs/submit_hunyuan_G*.sh (50 submit helpers)
+    - jobs/submit_all_hunyuan.sh (master submit script)
+
+CONFIGURATION:
+    - Model: hunyuan-video-i2v (720p image-to-video)
+    - Resources: 1 GPU, 8 CPUs, 80GB VRAM per job
+    - Time limit: 48 hours (full partition maximum)
+    - Partition: ghx4 (Grace-Hopper nodes)
+
+REQUIREMENTS:
+    - data/questions/ must contain G-* task directories
+    - VMEvalKit submodule must be initialized
+    - scripts/run_inference.sh must exist
+
+NOTES:
+    - Each job processes 50 videos (one task)
+    - Jobs use --skip-setup flag (assumes environment pre-configured)
+    - Logs save to logs/hunyuan_G*_<JOBID>.{out,err}
 """
 
 from pathlib import Path
 import re
 
-# Configuration
+# ============================================================================
+# CONFIGURATION - Modify these for your HPC environment
+# ============================================================================
+
 PROJECT_ROOT = Path(__file__).parent.parent
 QUESTIONS_DIR = PROJECT_ROOT / "data" / "questions"
 JOBS_DIR = PROJECT_ROOT / "jobs"
-MODEL_NAME = "hunyuan-video-i2v"
-PARTITION = "ghx4"
-ACCOUNT = "bdqf-dtai-gh"  # SLURM account
-GPUS_PER_NODE = 1
-CPUS_PER_TASK = 8
-TIME_LIMIT = "48:00:00"  # Using full 48-hour limit available on ghx4
-MEMORY_PER_GPU = "80G"  # 80GB VRAM requirement
+
+# Model configuration
+MODEL_NAME = "hunyuan-video-i2v"  # HunyuanVideo 720p image-to-video
+
+# SLURM configuration (adjust for your cluster)
+PARTITION = "ghx4"                # Grace-Hopper partition
+ACCOUNT = "bdqf-dtai-gh"          # Your SLURM account
+GPUS_PER_NODE = 1                 # HunyuanVideo needs 1 GPU per job
+CPUS_PER_TASK = 8                 # 8 CPUs for data loading/preprocessing
+TIME_LIMIT = "48:00:00"           # 48 hours (50 videos × ~3-5 min each)
+MEMORY_PER_GPU = "80G"            # 80GB VRAM (HunyuanVideo uses ~60-70GB)
 
 # SLURM job template
 SLURM_TEMPLATE = """#!/bin/bash

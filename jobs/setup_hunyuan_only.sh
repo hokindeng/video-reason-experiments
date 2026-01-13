@@ -1,7 +1,41 @@
 #!/bin/bash
+##############################################################################
+# HunyuanVideo-I2V Environment Setup for ARM64 Grace-Hopper HPC
+##############################################################################
 #
-# Setup hunyuan-video-i2v environment only (no inference)
+# PURPOSE:
+#   Create a working HunyuanVideo-I2V environment on ARM64 (aarch64) systems
+#   with Python 3.12 and PyTorch 2.7+cu126.
 #
+# USAGE:
+#   bash jobs/setup_hunyuan_only.sh
+#
+# WHAT IT DOES:
+#   1. Creates virtual environment with --system-site-packages (reuses cluster torch)
+#   2. Installs ARM64-compatible dependencies (upgraded versions with wheels)
+#   3. Downloads model checkpoints from HuggingFace (~40GB total)
+#
+# REQUIREMENTS:
+#   - Module: cuda/12.6.1
+#   - Module: python/miniforge3_pytorch/2.7.0 (provides PyTorch 2.7+cu126)
+#   - Internet access for HuggingFace downloads
+#   - ~50GB disk space
+#
+# OUTPUT:
+#   Virtual environment at: VMEvalKit/envs/hunyuan-video-i2v
+#   Model checkpoints at: VMEvalKit/submodules/HunyuanVideo-I2V/ckpts/
+#
+# ARM64 NOTES:
+#   - Many upstream pinned versions have no ARM64/cp312 wheels
+#   - We upgrade to newer wheel-available versions
+#   - numpy must be <2.0 for pandas/pyarrow compatibility
+#   - deepspeed has no ARM64 wheel (made optional via code patch)
+#
+# AFTER THIS:
+#   Run: sbatch jobs/install_flash_attention.slurm
+#   Then: ./jobs/submit_all_hunyuan.sh
+#
+##############################################################################
 
 set -e
 
@@ -43,34 +77,50 @@ echo "✅ Using cluster PyTorch (should be 2.7.0.dev...+cu126):"
 python -c "import torch; print('torch', torch.__version__, 'cuda', torch.version.cuda)"
 
 echo "📦 Installing HunyuanVideo-I2V dependencies (pinned)..."
-pip install -q "opencv-python==4.9.0.80"
-pip install -q "diffusers==0.31.0"
-pip install -q "accelerate==1.1.1"
-pip install -q --only-binary=:all: "pandas==2.2.3"
-pip install -q --only-binary=:all: "numpy==1.26.4"
-pip install -q "einops==0.7.0"
-pip install -q "tqdm==4.66.2"
-pip install -q "loguru==0.7.2"
-pip install -q "imageio==2.34.0"
-pip install -q "imageio-ffmpeg==0.5.1"
-pip install -q "safetensors==0.4.3"
-pip install -q "peft==0.13.2"
-pip install -q "transformers==4.39.3"
-pip install -q "tokenizers==0.15.0"
-pip install -q --only-binary=:all: "pyarrow==14.0.1"
-pip install -q "tensorboard==2.19.0"
-pip install -q --only-binary=:all: --no-deps "deepspeed"  # Only 0.3.1.dev5 has aarch64 wheel; unused for inference
-pip install -q "tensorboardX==1.8" "ninja==1.11.1.1"  # Required by deepspeed
-pip install -q "protobuf==3.20.3"  # tensorboardX 1.8 needs protobuf 3.20.x
 
-# Pin CLIP by commit SHA for reproducibility
+# Core ML libraries (from HunyuanVideo requirements.txt)
+pip install -q "opencv-python==4.9.0.80"      # Computer vision
+pip install -q "diffusers==0.31.0"            # Diffusion models framework
+pip install -q "accelerate==1.1.1"            # PyTorch training/inference utilities
+pip install -q "einops==0.7.0"                # Tensor operations
+pip install -q "safetensors==0.4.3"           # Safe model serialization
+pip install -q "peft==0.13.2"                 # Parameter-efficient fine-tuning
+
+# Data processing (upgraded for ARM64/cp312 wheel availability)
+pip install -q --only-binary=:all: "pandas==2.2.3"   # Was 2.0.3 (no cp312 wheel)
+pip install -q --only-binary=:all: "numpy==1.26.4"   # Was 1.24.4 (no cp312 wheel), must be <2.0
+pip install -q --only-binary=:all: "pyarrow==14.0.1" # Arrow format support
+
+# Transformers stack (HuggingFace)
+pip install -q "transformers==4.39.3"         # Model loading
+pip install -q "tokenizers==0.15.0"           # Fast tokenization
+
+# Utilities
+pip install -q "tqdm==4.66.2"                 # Progress bars
+pip install -q "loguru==0.7.2"                # Logging
+pip install -q "imageio==2.34.0"              # Image I/O
+pip install -q "imageio-ffmpeg==0.5.1"        # Video encoding
+pip install -q "tensorboard==2.19.0"          # Training monitoring
+
+# Deepspeed (training-only, but imported by HunyuanVideo code)
+# NOTE: Only 0.3.1.dev5 has ARM64 wheel, but it's incompatible with PyTorch 2.x
+# We install it anyway (to satisfy import) but made the import optional via code patch
+pip install -q --only-binary=:all: --no-deps "deepspeed"
+pip install -q "tensorboardX==1.8" "ninja==1.11.1.1"  # Deepspeed dependencies
+pip install -q "protobuf==3.20.3"             # tensorboardX 1.8 compatibility
+
+# CLIP (required by HunyuanVideo for text encoding)
+# Pin by commit SHA for reproducibility (no version tags on openai/CLIP repo)
 pip install -q --no-build-isolation "git+https://github.com/openai/CLIP.git@dcba3cb2e2827b402d2701e7e1c7d9fed8a20ef1"
 
-# Extra utilities used by VMEvalKit runner
-pip install -q --only-binary=:all: "Pillow==11.3.0"
-pip install -q "pydantic==2.12.5" "pydantic-settings==2.12.0" "python-dotenv==1.2.1"
-pip install -q "requests==2.32.5" "httpx==0.28.1"
-pip install -q "huggingface_hub[cli]==0.26.2"
+# VMEvalKit runner utilities
+pip install -q --only-binary=:all: "Pillow==11.3.0"  # Was 9.5.0 (no cp312 wheel)
+pip install -q "pydantic==2.12.5"                     # Data validation
+pip install -q "pydantic-settings==2.12.0"            # Settings management
+pip install -q "python-dotenv==1.2.1"                 # Environment variables
+pip install -q "requests==2.32.5"                     # HTTP client
+pip install -q "httpx==0.28.1"                        # Async HTTP client
+pip install -q "huggingface_hub[cli]==0.26.2"         # Model downloads
 
 echo "✅ Verifying torchvision ops are present (must be True):"
 python -c "import torchvision; print(getattr(torchvision.extension,'_has_ops')())"
@@ -80,7 +130,7 @@ echo "────────────────────────�
 echo "Downloading Model Checkpoints"
 echo "────────────────────────────────────────────────────────────────"
 
-HUNYUAN_CKPTS_DIR="${PROJECT_ROOT}/VMEvalKit/submodules/HunyuanVideo-I2V/ckpts"
+HUNYUAN_CKPaTS_DIR="${PROJECT_ROOT}/VMEvalKit/submodules/HunyuanVideo-I2V/ckpts"
 HUNYUAN_MODEL_DIR="${HUNYUAN_CKPTS_DIR}/hunyuan-video-i2v-720p"
 TEXT_ENCODER_DIR="${HUNYUAN_CKPTS_DIR}/text_encoder_i2v"
 CLIP_TEXT_ENCODER_DIR="${HUNYUAN_CKPTS_DIR}/text_encoder_2"

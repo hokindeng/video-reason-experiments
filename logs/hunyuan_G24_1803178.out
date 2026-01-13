@@ -49,3 +49,614 @@ Working directory: /u/yli8/hokin/video-reason-experiments/VMEvalKit
 🔍 Discovering human-approved tasks from folder structure...
 🔍 Discovering tasks from: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator
    📁 Scanning separate_objects_no_spin_task/
+      ✅ Found 50 tasks in separate_objects_no_spin
+
+📊 Discovery Summary: 50 total tasks
+   separate_objects_no_spin: 50 tasks
+   🎯 Running all discovered tasks
+
+🎯 Selected 1 model(s): hunyuan-video-i2v
+
+🔍 Verifying 1 model(s) for testing...
+   ✅ hunyuan-video-i2v: HunyuanVideo
+🚀 VMEVAL KIT EXPERIMENT - CLEAN EXECUTION
+
+📊 Experiment Configuration:
+   Models to run: 1 - hunyuan-video-i2v
+   Domains: 1
+   🔄 Execution Mode: SEQUENTIAL
+
+📈 Task Distribution:
+   Separate_Objects_No_Spin: 50 approved tasks
+   Total approved tasks: 50
+   Total generations: 50
+
+📁 Output directory: /u/yli8/hokin/video-reason-experiments/data/outputs
+   Skip existing: True
+
+📁 Output directory structure ready at: /u/yli8/hokin/video-reason-experiments/data/outputs
+   Each inference will create a self-contained folder with:
+   - video/: Generated video file
+   - question/: Input images and prompt
+   - metadata.json: Complete inference metadata
+📁 Created per-model folders under: /u/yli8/hokin/video-reason-experiments/data/outputs and mirrored question tasks
+📋 Total inference jobs to run: 50
+🚀 Starting sequential execution...
+
+   Processing order: Model by model, task by task
+
+🤖 Processing Model: HunyuanVideo (hunyuan-video-i2v)
+
+  📚 Domain: Separate_Objects_No_Spin
+    [1/50] Processing: separate_objects_no_spin_0000
+
+  🎬 Generating: separate_objects_no_spin_0000 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0000/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Using model-specific Python: /u/yli8/hokin/video-reason-experiments/VMEvalKit/envs/hunyuan-video-i2v/bin/python
+📦 Loaded model: hunyuan-video-i2v (will be reused for all tasks)
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0000
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0000/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0000/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [2/50] Processing: separate_objects_no_spin_0001
+
+  🎬 Generating: separate_objects_no_spin_0001 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0001/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0001
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0001/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0001/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [3/50] Processing: separate_objects_no_spin_0002
+
+  🎬 Generating: separate_objects_no_spin_0002 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0002/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0002
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0002/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0002/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [4/50] Processing: separate_objects_no_spin_0003
+
+  🎬 Generating: separate_objects_no_spin_0003 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0003/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0003
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0003/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0003/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [5/50] Processing: separate_objects_no_spin_0004
+
+  🎬 Generating: separate_objects_no_spin_0004 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0004/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0004
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0004/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0004/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [6/50] Processing: separate_objects_no_spin_0005
+
+  🎬 Generating: separate_objects_no_spin_0005 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0005/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0005
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0005/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0005/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [7/50] Processing: separate_objects_no_spin_0006
+
+  🎬 Generating: separate_objects_no_spin_0006 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0006/first_frame.png
+     Prompt: The scene shows 3 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0006
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0006/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0006/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [8/50] Processing: separate_objects_no_spin_0007
+
+  🎬 Generating: separate_objects_no_spin_0007 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0007/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0007
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0007/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0007/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [9/50] Processing: separate_objects_no_spin_0008
+
+  🎬 Generating: separate_objects_no_spin_0008 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0008/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0008
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0008/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0008/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [10/50] Processing: separate_objects_no_spin_0009
+
+  🎬 Generating: separate_objects_no_spin_0009 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0009/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0009
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0009/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0009/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [11/50] Processing: separate_objects_no_spin_0010
+
+  🎬 Generating: separate_objects_no_spin_0010 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0010/first_frame.png
+     Prompt: The scene shows 3 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0010
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0010/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0010/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [12/50] Processing: separate_objects_no_spin_0011
+
+  🎬 Generating: separate_objects_no_spin_0011 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0011/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0011
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0011/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0011/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [13/50] Processing: separate_objects_no_spin_0012
+
+  🎬 Generating: separate_objects_no_spin_0012 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0012/first_frame.png
+     Prompt: The scene shows 3 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0012
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0012/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0012/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [14/50] Processing: separate_objects_no_spin_0013
+
+  🎬 Generating: separate_objects_no_spin_0013 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0013/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0013
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0013/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0013/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [15/50] Processing: separate_objects_no_spin_0014
+
+  🎬 Generating: separate_objects_no_spin_0014 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0014/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0014
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0014/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0014/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [16/50] Processing: separate_objects_no_spin_0015
+
+  🎬 Generating: separate_objects_no_spin_0015 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0015/first_frame.png
+     Prompt: The scene shows 5 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0015
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0015/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0015/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [17/50] Processing: separate_objects_no_spin_0016
+
+  🎬 Generating: separate_objects_no_spin_0016 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0016/first_frame.png
+     Prompt: The scene shows 3 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0016
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0016/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0016/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [18/50] Processing: separate_objects_no_spin_0017
+
+  🎬 Generating: separate_objects_no_spin_0017 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0017/first_frame.png
+     Prompt: The scene shows 3 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0017
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0017/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0017/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [19/50] Processing: separate_objects_no_spin_0018
+
+  🎬 Generating: separate_objects_no_spin_0018 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0018/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0018
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0018/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0018/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [20/50] Processing: separate_objects_no_spin_0019
+
+  🎬 Generating: separate_objects_no_spin_0019 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0019/first_frame.png
+     Prompt: The scene shows 3 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0019
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0019/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0019/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [21/50] Processing: separate_objects_no_spin_0020
+
+  🎬 Generating: separate_objects_no_spin_0020 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0020/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0020
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0020/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0020/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [22/50] Processing: separate_objects_no_spin_0021
+
+  🎬 Generating: separate_objects_no_spin_0021 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0021/first_frame.png
+     Prompt: The scene shows 4 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0021
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0021/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0021/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [23/50] Processing: separate_objects_no_spin_0022
+
+  🎬 Generating: separate_objects_no_spin_0022 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0022/first_frame.png
+     Prompt: The scene shows 4 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0022
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0022/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0022/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [24/50] Processing: separate_objects_no_spin_0023
+
+  🎬 Generating: separate_objects_no_spin_0023 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0023/first_frame.png
+     Prompt: The scene shows 3 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0023
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0023/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0023/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [25/50] Processing: separate_objects_no_spin_0024
+
+  🎬 Generating: separate_objects_no_spin_0024 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0024/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0024
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0024/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0024/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [26/50] Processing: separate_objects_no_spin_0025
+
+  🎬 Generating: separate_objects_no_spin_0025 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0025/first_frame.png
+     Prompt: The scene shows 4 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0025
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0025/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0025/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [27/50] Processing: separate_objects_no_spin_0026
+
+  🎬 Generating: separate_objects_no_spin_0026 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0026/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0026
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0026/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0026/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [28/50] Processing: separate_objects_no_spin_0027
+
+  🎬 Generating: separate_objects_no_spin_0027 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0027/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0027
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0027/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0027/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [29/50] Processing: separate_objects_no_spin_0028
+
+  🎬 Generating: separate_objects_no_spin_0028 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0028/first_frame.png
+     Prompt: The scene shows 4 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0028
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0028/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0028/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [30/50] Processing: separate_objects_no_spin_0029
+
+  🎬 Generating: separate_objects_no_spin_0029 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0029/first_frame.png
+     Prompt: The scene shows 3 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0029
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0029/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0029/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [31/50] Processing: separate_objects_no_spin_0030
+
+  🎬 Generating: separate_objects_no_spin_0030 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0030/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0030
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0030/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0030/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [32/50] Processing: separate_objects_no_spin_0031
+
+  🎬 Generating: separate_objects_no_spin_0031 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0031/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0031
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0031/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0031/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [33/50] Processing: separate_objects_no_spin_0032
+
+  🎬 Generating: separate_objects_no_spin_0032 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0032/first_frame.png
+     Prompt: The scene shows 3 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0032
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0032/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0032/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [34/50] Processing: separate_objects_no_spin_0033
+
+  🎬 Generating: separate_objects_no_spin_0033 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0033/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0033
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0033/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0033/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [35/50] Processing: separate_objects_no_spin_0034
+
+  🎬 Generating: separate_objects_no_spin_0034 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0034/first_frame.png
+     Prompt: The scene shows 3 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0034
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0034/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0034/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [36/50] Processing: separate_objects_no_spin_0035
+
+  🎬 Generating: separate_objects_no_spin_0035 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0035/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0035
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0035/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0035/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [37/50] Processing: separate_objects_no_spin_0036
+
+  🎬 Generating: separate_objects_no_spin_0036 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0036/first_frame.png
+     Prompt: The scene shows 3 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0036
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0036/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0036/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [38/50] Processing: separate_objects_no_spin_0037
+
+  🎬 Generating: separate_objects_no_spin_0037 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0037/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0037
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0037/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0037/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [39/50] Processing: separate_objects_no_spin_0038
+
+  🎬 Generating: separate_objects_no_spin_0038 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0038/first_frame.png
+     Prompt: The scene shows 3 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0038
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0038/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0038/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [40/50] Processing: separate_objects_no_spin_0039
+
+  🎬 Generating: separate_objects_no_spin_0039 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0039/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0039
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0039/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0039/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [41/50] Processing: separate_objects_no_spin_0040
+
+  🎬 Generating: separate_objects_no_spin_0040 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0040/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0040
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0040/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0040/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [42/50] Processing: separate_objects_no_spin_0041
+
+  🎬 Generating: separate_objects_no_spin_0041 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0041/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0041
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0041/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0041/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [43/50] Processing: separate_objects_no_spin_0042
+
+  🎬 Generating: separate_objects_no_spin_0042 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0042/first_frame.png
+     Prompt: The scene shows 4 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0042
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0042/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0042/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [44/50] Processing: separate_objects_no_spin_0043
+
+  🎬 Generating: separate_objects_no_spin_0043 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0043/first_frame.png
+     Prompt: The scene shows 3 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0043
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0043/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0043/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [45/50] Processing: separate_objects_no_spin_0044
+
+  🎬 Generating: separate_objects_no_spin_0044 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0044/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0044
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0044/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0044/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [46/50] Processing: separate_objects_no_spin_0045
+
+  🎬 Generating: separate_objects_no_spin_0045 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0045/first_frame.png
+     Prompt: The scene shows 3 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0045
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0045/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0045/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [47/50] Processing: separate_objects_no_spin_0046
+
+  🎬 Generating: separate_objects_no_spin_0046 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0046/first_frame.png
+     Prompt: The scene shows 3 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0046
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0046/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/separate_objects_no_spin_task/separate_objects_no_spin_0046/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [48/50] Processing: separate_objects_no_spin_0047
+
+  🎬 Generating: separate_objects_no_spin_0047 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-24_separate_objects_no_spin_data-generator/separate_objects_no_spin_task/separate_objects_no_spin_0047/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
