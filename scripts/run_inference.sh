@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -x
 set -euo pipefail
 
 # Script configuration
@@ -136,6 +136,15 @@ main() {
         if ! setup_model "$MODEL"; then
             exit 1
         fi
+    fi
+    
+    # Activate model-specific virtual environment if it exists
+    local model_venv="$VMEVALKIT_DIR/envs/$MODEL"
+    if [[ -d "$model_venv" ]] && [[ -f "$model_venv/bin/activate" ]]; then
+        echo "🐍 Activating model virtual environment: $model_venv"
+        source "$model_venv/bin/activate"
+    else
+        echo "⚠️  Model venv not found at $model_venv, using system Python"
     fi
     
     # Build command array
