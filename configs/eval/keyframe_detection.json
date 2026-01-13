@@ -1,7 +1,6 @@
 {
-  "method": "multiframe_gpt4o",
   "inference_dir": "../data/outputs",
-  "eval_output_dir": "../data/evaluations/keyframe_detection",
+  "eval_output_dir": "../data/evaluations/{method}/{evaluator}",
   "temperature": 0.0,
   "multiframe": {
     "n_frames": 8,
@@ -11,5 +10,6 @@
     "metric": "ssim",
     "temporal_weight": 0.4,
     "confidence_threshold": 0.6
-  }
+  },
+  "_note": "Evaluator must be specified via --evaluator flag. For multi-frame, use multiframe_gpt4o or multiframe_internvl"
 }
