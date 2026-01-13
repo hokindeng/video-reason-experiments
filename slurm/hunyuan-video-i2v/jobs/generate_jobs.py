@@ -121,10 +121,12 @@ exit $exit_code
 """
 
 def extract_task_number(dirname):
-    """Extract task number from directory name like G-7_return_to_correct_bin_data-generator"""
-    match = re.match(r'G-(\d+)', dirname)
+    """Extract task number from directory name like G-7 or O-15"""
+    match = re.match(r'([GO])-(\d+)', dirname)
     if match:
-        return int(match.group(1))
+        series = match.group(1)
+        number = int(match.group(2))
+        return (series, number)
     return None
 
 def generate_job_scripts():
@@ -136,7 +138,7 @@ def generate_job_scripts():
         return []
     
     task_dirs = sorted([d for d in QUESTIONS_DIR.iterdir() if d.is_dir()], 
-                      key=lambda x: extract_task_number(x.name) or 999)
+                      key=lambda x: extract_task_number(x.name) or ('Z', 999))
     
     print(f"📂 Found {len(task_dirs)} tasks in {QUESTIONS_DIR}")
     print()
@@ -145,14 +147,16 @@ def generate_job_scripts():
     
     for task_dir in task_dirs:
         task_name = task_dir.name
-        task_num = extract_task_number(task_name)
+        task_info = extract_task_number(task_name)
         
-        if task_num is None:
+        if task_info is None:
             print(f"⚠️  Skipping {task_name} (couldn't extract task number)")
             continue
         
+        series, task_num = task_info
+        
         # Generate short names for files
-        task_short = f"G{task_num}"
+        task_short = f"{series}{task_num}"
         job_name = f"hunyuan-{task_short}"
         log_prefix = f"hunyuan_{task_short}"
         slurm_file = JOBS_OUTPUT_DIR / f"hunyuan_{task_short}.slurm"
@@ -178,6 +182,7 @@ def generate_job_scripts():
         slurm_file.chmod(0o755)
         
         generated_files.append({
+            'series': series,
             'task_num': task_num,
             'task_name': task_name,
             'slurm_file': slurm_file,
@@ -256,7 +261,7 @@ def generate_individual_submit_scripts(job_files):
     """Generate individual submission scripts for each task"""
     
     for job_info in job_files:
-        task_short = f"G{job_info['task_num']}"
+        task_short = f"{job_info['series']}{job_info['task_num']}"
         submit_script = SUBMIT_OUTPUT_DIR / f"submit_hunyuan_{task_short}.sh"
         slurm_filename = job_info['slurm_file'].name
         

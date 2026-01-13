@@ -11,7 +11,7 @@ PROJECT_ROOT="$(cd "$SCRIPT_DIR/../../.." && pwd)"
 cd "$PROJECT_ROOT"
 
 echo "🚀 Submitting all hunyuan-video-i2v jobs..."
-echo "   Total tasks: 50"
+echo "   Total tasks: 100"
 echo "   Model: hunyuan-video-i2v"
 echo ""
 
@@ -316,6 +316,306 @@ echo "  Job ID: $JOB_ID"
 # Submit G-50_suppress_spurious_edges_data-generator
 echo "Submitting: G-50_suppress_spurious_edges_data-generator"
 JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_G50.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-1_color_mixing_data-generator
+echo "Submitting: O-1_color_mixing_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O1.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-2_pigment_color_mixing_subtractive_data-generator
+echo "Submitting: O-2_pigment_color_mixing_subtractive_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O2.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-3_symbol_reordering_data-generator
+echo "Submitting: O-3_symbol_reordering_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O3.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-4_symbol_substitution_data-generator
+echo "Submitting: O-4_symbol_substitution_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O4.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-5_symbol_deletion_data-generator
+echo "Submitting: O-5_symbol_deletion_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O5.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-6_2d_geometric_transformation_data-generator
+echo "Submitting: O-6_2d_geometric_transformation_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O6.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-7_shape_color_change_data-generator
+echo "Submitting: O-7_shape_color_change_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O7.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-8_shape_rotation_data-generator
+echo "Submitting: O-8_shape_rotation_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O8.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-9_shape_scaling_data-generator
+echo "Submitting: O-9_shape_scaling_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O9.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-10_shape_outline_fill_data-generator
+echo "Submitting: O-10_shape_outline_fill_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O10.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-11_shape_color_then_move_data-generator
+echo "Submitting: O-11_shape_color_then_move_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O11.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-12_shape_color_then_scale_data-generator
+echo "Submitting: O-12_shape_color_then_scale_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O12.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-13_shape_outline_then_move_data-generator
+echo "Submitting: O-13_shape_outline_then_move_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O13.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-14_shape_scale_then_outline_data-generator
+echo "Submitting: O-14_shape_scale_then_outline_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O14.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-15_ball_bounces_given_time_data-generator
+echo "Submitting: O-15_ball_bounces_given_time_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O15.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-16_color_addition_data-generator
+echo "Submitting: O-16_color_addition_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O16.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-17_color_subtraction_data-generator
+echo "Submitting: O-17_color_subtraction_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O17.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-18_glass_refraction_data-generator
+echo "Submitting: O-18_glass_refraction_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O18.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-19_mirror_reflection_data-generator
+echo "Submitting: O-19_mirror_reflection_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O19.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-20_balance_missing_weight_data-generator
+echo "Submitting: O-20_balance_missing_weight_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O20.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-21_construction_blueprint_data-generator
+echo "Submitting: O-21_construction_blueprint_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O21.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-22_construction_stack_data-generator
+echo "Submitting: O-22_construction_stack_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O22.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-23_domino_chain_branch_path_prediction_data-generator
+echo "Submitting: O-23_domino_chain_branch_path_prediction_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O23.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-24_domino_chain_gap_analysis_data-generator
+echo "Submitting: O-24_domino_chain_gap_analysis_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O24.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-25_LEGO_construction_assembly_data-generator
+echo "Submitting: O-25_LEGO_construction_assembly_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O25.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-26_logic_gate_data-generator
+echo "Submitting: O-26_logic_gate_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O26.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-27_move_2_object_to_2_target_data-generator
+echo "Submitting: O-27_move_2_object_to_2_target_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O27.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-28_torque_balance_reasoning_data-generator
+echo "Submitting: O-28_torque_balance_reasoning_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O28.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-29_ballcolor_data-generator
+echo "Submitting: O-29_ballcolor_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O29.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-30_bookshelf_data-generator
+echo "Submitting: O-30_bookshelf_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O30.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-31_ball_eating_data-generator
+echo "Submitting: O-31_ball_eating_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O31.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-32_rolling_ball_data-generator
+echo "Submitting: O-32_rolling_ball_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O32.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-33_counting_object_data-generator
+echo "Submitting: O-33_counting_object_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O33.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-34_dot_to_dot_task_data-generator
+echo "Submitting: O-34_dot_to_dot_task_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O34.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-35_edit_distance_data-generator
+echo "Submitting: O-35_edit_distance_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O35.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-36_grid_shift_data-generator
+echo "Submitting: O-36_grid_shift_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O36.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-37_light_sequence_data-generator
+echo "Submitting: O-37_light_sequence_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O37.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-38_majority_color_data-generator
+echo "Submitting: O-38_majority_color_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O38.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-39_maze_data-generator
+echo "Submitting: O-39_maze_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O39.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-40_mirror_clock_task_data-generator
+echo "Submitting: O-40_mirror_clock_task_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O40.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-41_nonogram_data-generator
+echo "Submitting: O-41_nonogram_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O41.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-42_object_permanence_data-generator
+echo "Submitting: O-42_object_permanence_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O42.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-43_object_subtraction_data-generator
+echo "Submitting: O-43_object_subtraction_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O43.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-44_rotation_puzzle_data-generator
+echo "Submitting: O-44_rotation_puzzle_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O44.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-45_sequence_completion_data-generator
+echo "Submitting: O-45_sequence_completion_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O45.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-46_shape_sorter_data-generator
+echo "Submitting: O-46_shape_sorter_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O46.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-47_sliding_puzzle_data-generator
+echo "Submitting: O-47_sliding_puzzle_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O47.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-48_sudoku_data-generator
+echo "Submitting: O-48_sudoku_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O48.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-49_symmetry_completion_data-generator
+echo "Submitting: O-49_symmetry_completion_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O49.slurm")
+JOB_IDS+=($JOB_ID)
+echo "  Job ID: $JOB_ID"
+
+# Submit O-50_tetris_data-generator
+echo "Submitting: O-50_tetris_data-generator"
+JOB_ID=$(sbatch --parsable "$PROJECT_ROOT/slurm/hunyuan-video-i2v/jobs/generated/hunyuan_O50.slurm")
 JOB_IDS+=($JOB_ID)
 echo "  Job ID: $JOB_ID"
 

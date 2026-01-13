@@ -552,3 +552,15 @@ Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
      Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-7_return_to_correct_bin_data-generator/return_to_correct_bin_task/return_to_correct_bin_0038/first_frame.png
      Prompt: Move each item into the bin that matches its color. Only move items, do not chan...
 Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/return_to_correct_bin_task/return_to_correct_bin_0038
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/return_to_correct_bin_task/return_to_correct_bin_0038/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/return_to_correct_bin_task/return_to_correct_bin_0038/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [40/50] Processing: return_to_correct_bin_0039
+
+  🎬 Generating: return_to_correct_bin_0039 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-7_return_to_correct_bin_data-generator/return_to_correct_bin_task/return_to_correct_bin_0039/first_frame.png
+     Prompt: Move each item into the bin that matches its color. Only move items, do not chan...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
