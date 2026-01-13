@@ -540,3 +540,27 @@ Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
      Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-6_resize_object-data-generator/resize_object_task/resize_object_0037/first_frame.png
      Prompt: Resize the bottom object so its size matches the top reference object. Only chan...
 Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/resize_object_task/resize_object_0037
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/resize_object_task/resize_object_0037/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/resize_object_task/resize_object_0037/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [39/50] Processing: resize_object_0038
+
+  🎬 Generating: resize_object_0038 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-6_resize_object-data-generator/resize_object_task/resize_object_0038/first_frame.png
+     Prompt: Resize the top object so its size matches the bottom reference object. Only chan...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/resize_object_task/resize_object_0038
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/resize_object_task/resize_object_0038/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/resize_object_task/resize_object_0038/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [40/50] Processing: resize_object_0039
+
+  🎬 Generating: resize_object_0039 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-6_resize_object-data-generator/resize_object_task/resize_object_0039/first_frame.png
+     Prompt: Resize the top object so its size matches the bottom reference object. Only chan...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation

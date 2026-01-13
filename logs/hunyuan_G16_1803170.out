@@ -648,3 +648,15 @@ Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
      Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-16_grid_go_through_block_data-generator/grid_go_through_block_task/grid_go_through_block_0046/first_frame.png
      Prompt: The scene shows a 10x10 grid with a green start square (containing an orange cir...
 Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_go_through_block_task/grid_go_through_block_0046
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_go_through_block_task/grid_go_through_block_0046/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/grid_go_through_block_task/grid_go_through_block_0046/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [48/50] Processing: grid_go_through_block_0047
+
+  🎬 Generating: grid_go_through_block_0047 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-16_grid_go_through_block_data-generator/grid_go_through_block_task/grid_go_through_block_0047/first_frame.png
+     Prompt: The scene shows a 10x10 grid with a green start square (containing an orange cir...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation

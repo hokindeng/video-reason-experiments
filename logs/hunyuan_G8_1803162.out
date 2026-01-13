@@ -672,3 +672,51 @@ Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
      Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-8_track_object_movement_data-generator/track_object_movement_task/track_object_movement_0048/first_frame.png
      Prompt: The red rectangle marked with a green border is the only object that will move. ...
 Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/track_object_movement_task/track_object_movement_0048
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/track_object_movement_task/track_object_movement_0048/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/track_object_movement_task/track_object_movement_0048/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [50/50] Processing: track_object_movement_0049
+
+  🎬 Generating: track_object_movement_0049 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-8_track_object_movement_data-generator/track_object_movement_task/track_object_movement_0049/first_frame.png
+     Prompt: The red square marked with a green border is the only object that will move. It ...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/track_object_movement_task/track_object_movement_0049
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/track_object_movement_task/track_object_movement_0049/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/track_object_movement_task/track_object_movement_0049/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+
+  📊 Model HunyuanVideo Summary: 50 completed, 0 failed, 0 skipped in 27h 23m 46s
+
+⏱️  Sequential execution completed in 27h 23m 46s
+🎉 VIDEO GENERATION COMPLETE!
+
+📊 Final Statistics:
+   Models tested: 1
+   Tasks per model: 50
+   Total possible generations: 50
+   Total attempted: 50
+   Completed: 50 (100.0%)
+   Failed: 0 (0.0%)
+   Skipped: 0 (0.0%)
+   ⏱️ Duration: 27h 23m 46s
+
+🎯 Results by Domain:
+   Track_Object_Movement: ✅ 50 completed | ❌ 0 failed | ⏭️  0 skipped
+
+🤖 Results by Model:
+   hunyuan-video-i2v: ✅ 50 | ❌ 0 | ⏭️  0
+
+📁 All outputs saved to: /u/yli8/hokin/video-reason-experiments/data/outputs
+================================================================================
+✅ Process completed successfully
+
+==========================================
+Job completed with exit code: 0
+End Time: Mon 12 Jan 2026 11:26:15 PM CST
+==========================================

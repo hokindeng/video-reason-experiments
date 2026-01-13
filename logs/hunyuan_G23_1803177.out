@@ -504,3 +504,15 @@ Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
      Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-23_combined_objects_no_spin_data-generator/combined_objects_no_spin_task/combined_objects_no_spin_0034/first_frame.png
      Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
 Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/combined_objects_no_spin_task/combined_objects_no_spin_0034
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/combined_objects_no_spin_task/combined_objects_no_spin_0034/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/combined_objects_no_spin_task/combined_objects_no_spin_0034/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [36/50] Processing: combined_objects_no_spin_0035
+
+  🎬 Generating: combined_objects_no_spin_0035 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-23_combined_objects_no_spin_data-generator/combined_objects_no_spin_task/combined_objects_no_spin_0035/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation

@@ -492,3 +492,15 @@ Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
      Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-22_attention_shift_same_data-generator/attention_shift_same_task/attention_shift_same_0033/first_frame.png
      Prompt: The scene shows two identical hexagon objects, one on the left and one on the ri...
 Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/attention_shift_same_task/attention_shift_same_0033
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/attention_shift_same_task/attention_shift_same_0033/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/attention_shift_same_task/attention_shift_same_0033/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [35/50] Processing: attention_shift_same_0034
+
+  🎬 Generating: attention_shift_same_0034 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-22_attention_shift_same_data-generator/attention_shift_same_task/attention_shift_same_0034/first_frame.png
+     Prompt: The scene shows two identical square objects, one on the left and one on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation

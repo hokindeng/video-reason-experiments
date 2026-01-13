@@ -588,3 +588,15 @@ Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
      Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-11_handle_object_reappearance_data-generator/handle_object_reappearance_task/handle_object_reappearance_0041/first_frame.png
      Prompt: There is an object in the center. Move the object up off-screen, then return alo...
 Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/handle_object_reappearance_task/handle_object_reappearance_0041
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/handle_object_reappearance_task/handle_object_reappearance_0041/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/handle_object_reappearance_task/handle_object_reappearance_0041/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [43/50] Processing: handle_object_reappearance_0042
+
+  🎬 Generating: handle_object_reappearance_0042 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-11_handle_object_reappearance_data-generator/handle_object_reappearance_task/handle_object_reappearance_0042/first_frame.png
+     Prompt: There is an object in the center. Move the object up off-screen, then return alo...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation

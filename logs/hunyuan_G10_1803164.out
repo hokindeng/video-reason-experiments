@@ -396,3 +396,15 @@ Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
      Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-10_matching_object_data-generator/matching_object_task/matching_object_0025/first_frame.png
      Prompt: The scene contains a grid of handwritten characters on the left and a target cha...
 Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/matching_object_task/matching_object_0025
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/matching_object_task/matching_object_0025/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/matching_object_task/matching_object_0025/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [27/50] Processing: matching_object_0026
+
+  🎬 Generating: matching_object_0026 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-10_matching_object_data-generator/matching_object_task/matching_object_0026/first_frame.png
+     Prompt: The scene contains a grid of handwritten characters on the left and a target cha...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation

@@ -672,3 +672,15 @@ Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
      Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-19_sort_objects_by_rule_data-generator/sort_objects_by_rule_task/sort_objects_by_rule_0048/first_frame.png
      Prompt: The scene shows 4 circle objects of different sizes. Arrange the objects in a ho...
 Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/sort_objects_by_rule_task/sort_objects_by_rule_0048
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/sort_objects_by_rule_task/sort_objects_by_rule_0048/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/sort_objects_by_rule_task/sort_objects_by_rule_0048/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [50/50] Processing: sort_objects_by_rule_0049
+
+  🎬 Generating: sort_objects_by_rule_0049 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-19_sort_objects_by_rule_data-generator/sort_objects_by_rule_task/sort_objects_by_rule_0049/first_frame.png
+     Prompt: The scene shows 3 square objects of different sizes. Arrange the objects in a ho...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation

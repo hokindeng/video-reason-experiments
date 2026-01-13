@@ -672,3 +672,15 @@ Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
      Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-5_multi_object_placement_data-generator/multi_object_placement_task/multi_object_placement_0048/first_frame.png
      Prompt: The scene contains multiple colored objects and star markers. Keep all star mark...
 Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/multi_object_placement_task/multi_object_placement_0048
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/multi_object_placement_task/multi_object_placement_0048/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/multi_object_placement_task/multi_object_placement_0048/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [50/50] Processing: multi_object_placement_0049
+
+  🎬 Generating: multi_object_placement_0049 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-5_multi_object_placement_data-generator/multi_object_placement_task/multi_object_placement_0049/first_frame.png
+     Prompt: The scene contains multiple colored objects and star markers. Keep all star mark...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation

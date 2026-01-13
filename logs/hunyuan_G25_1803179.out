@@ -660,3 +660,27 @@ Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
      Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-25_seperate_object_spinning_data-generator/seperate_object_spinning_task/seperate_object_spinning_0047/first_frame.png
      Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
 Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/seperate_object_spinning_task/seperate_object_spinning_0047
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/seperate_object_spinning_task/seperate_object_spinning_0047/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/seperate_object_spinning_task/seperate_object_spinning_0047/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [49/50] Processing: seperate_object_spinning_0048
+
+  🎬 Generating: seperate_object_spinning_0048 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-25_seperate_object_spinning_data-generator/seperate_object_spinning_task/seperate_object_spinning_0048/first_frame.png
+     Prompt: The scene shows 4 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/seperate_object_spinning_task/seperate_object_spinning_0048
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/seperate_object_spinning_task/seperate_object_spinning_0048/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/seperate_object_spinning_task/seperate_object_spinning_0048/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [50/50] Processing: seperate_object_spinning_0049
+
+  🎬 Generating: seperate_object_spinning_0049 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-25_seperate_object_spinning_data-generator/seperate_object_spinning_task/seperate_object_spinning_0049/first_frame.png
+     Prompt: The scene shows 2 objects on the left side and dashed target outlines on the rig...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation

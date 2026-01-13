@@ -1,44 +1,37 @@
+# Logs
+logs/
+*.log
+
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-env/
-venv/
-ENV/
-*.egg-info/
-dist/
 build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
 # Virtual environments
-VMEvalKit/envs/
-video-reason-experiments/env/
+venv/
+ENV/
+env/
 
-# Data and outputs (large files)
-data/outputs/
-data/questions/
-*.mp4
-*.avi
-*.mov
-
-# Model checkpoints (large files)
-VMEvalKit/submodules/*/ckpts/
-*.safetensors
-*.pt
-*.pth
-*.ckpt
-*.bin
-
-# Logs
-logs/
-*.log
-*.out
-*.err
-
-# AWS credentials
+# Environment variables
 .env
-.aws/
+.env.local
 
 # IDE
 .vscode/
@@ -51,21 +44,9 @@ logs/
 .DS_Store
 Thumbs.db
 
-# Temporary files
-tmp/
-temp/
-*.tmp
+# Data directories
+data/outputs/
+data/questions/
 
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb
-
-# Cache
-.cache/
-*.cache
-pip-wheel-metadata/
-
-# Keep structure but ignore contents
-!data/outputs/.gitkeep
-!data/questions/.gitkeep
-!logs/.gitkeep
+# SLURM generated files
+slurm/**/generated/

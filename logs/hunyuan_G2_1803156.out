@@ -648,3 +648,15 @@ Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
      Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-2_reorder_objects_data-generator/reorder_objects_task/reorder_objects_0046/first_frame.png
      Prompt: The scene contains multiple objects arranged in a horizontal line. Keep all othe...
 Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/reorder_objects_task/reorder_objects_0046
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/reorder_objects_task/reorder_objects_0046/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/reorder_objects_task/reorder_objects_0046/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [48/50] Processing: reorder_objects_0047
+
+  🎬 Generating: reorder_objects_0047 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-2_reorder_objects_data-generator/reorder_objects_task/reorder_objects_0047/first_frame.png
+     Prompt: The scene contains multiple objects arranged in a horizontal line. Keep all othe...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation

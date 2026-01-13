@@ -600,3 +600,15 @@ Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
      Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-20_precise_placement_data-generator/precise_placement_task/precise_placement_0042/first_frame.png
      Prompt: The scene contains a circle object and a star marker. Move the circle object to ...
 Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
+
+✅ Inference complete! Output saved to: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/precise_placement_task/precise_placement_0042
+   - Generated: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/precise_placement_task/precise_placement_0042/video/video.mp4
+   - Question: /u/yli8/hokin/video-reason-experiments/data/outputs/hunyuan-video-i2v/precise_placement_task/precise_placement_0042/question/
+     ✅ Success! Structured output saved to: N/A
+      ✅ Completed successfully
+    [44/50] Processing: precise_placement_0043
+
+  🎬 Generating: precise_placement_0043 with hunyuan-video-i2v
+     Image: /u/yli8/hokin/video-reason-experiments/data/questions/G-20_precise_placement_data-generator/precise_placement_task/precise_placement_0043/first_frame.png
+     Prompt: The scene contains a circle object and a star marker. Move the circle object to ...
+Warning: HunyuanVideo requires 60-80GB GPU memory for 720p generation
