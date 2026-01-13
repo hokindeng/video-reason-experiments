@@ -11,19 +11,29 @@ VMEVALKIT_DIR="$SCRIPT_DIR/../VMEvalKit"
 SCORE_SCRIPT="$VMEVALKIT_DIR/examples/score_videos.py"
 
 usage() {
-    echo "Usage: $0 --eval-method <method>"
+    echo "Usage: $0 --eval-method <method> [--evaluator <evaluator>]"
     echo ""
     echo "Options:"
     echo "  --eval-method    Evaluation method: multi_frame_uniform | keyframe_detection | hybrid_sampling | last_frame"
+    echo "  --evaluator      VLM evaluator: gpt4o | internvl | qwen (optional, overrides config default)"
+    echo ""
+    echo "Examples:"
+    echo "  $0 --eval-method last_frame"
+    echo "  $0 --eval-method last_frame --evaluator internvl"
     exit 1
 }
 
 # Parse arguments
 EVAL_METHOD=""
+EVALUATOR=""
 while [[ $# -gt 0 ]]; do
     case $1 in
         --eval-method)
             EVAL_METHOD="$2"
+            shift 2
+            ;;
+        --evaluator)
+            EVALUATOR="$2"
             shift 2
             ;;
         *)
@@ -60,7 +70,18 @@ fi
 echo "🚀 Running evaluation: $EVAL_METHOD"
 echo "📄 Config: $CONFIG_PATH"
 
+# Build Python command
+PYTHON_CMD="python \"$SCORE_SCRIPT\" --eval-config \"$CONFIG_PATH\""
+
+# Add evaluator if specified
+if [[ -n "$EVALUATOR" ]]; then
+    PYTHON_CMD="$PYTHON_CMD --evaluator \"$EVALUATOR\""
+    echo "🤖 Evaluator: $EVALUATOR (overriding config)"
+else
+    echo "🤖 Evaluator: (from config file)"
+fi
+
 # Execute VMEvalKit
 cd "$VMEVALKIT_DIR"
-python "$SCORE_SCRIPT" --eval-config "$CONFIG_PATH"
+eval $PYTHON_CMD
 
