@@ -25,6 +25,9 @@ cp env.template .env  # Edit with your AWS credentials
 # Generate videos
 ./scripts/run_inference.sh --model hunyuan-video-i2v --gpu 0 --questions-dir ./data/questions
 
+# Generate all videos automatically (e.g. videocrafter2-512)
+bash run_all_parallel.sh videocrafter2-512
+
 # Evaluate videos
 # Combine evaluation method (sampling strategy) with evaluator (VLM model)
 # Methods: last_frame, multi_frame_uniform, keyframe_detection, hybrid_sampling
